@@ -3681,3 +3681,76 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.06.22-21.36.13:303][947]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/XUF6SSX313SALUBJD7JM9I5C9CCE5B43BB9AF329CB4FAA4BC1BAD8.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NQ/XUF6SSX313SALUBJD7JM9I.uasset'
 [2022.06.22-21.36.13:315][947]AssetCheck: New page: Asset Save: StaticMeshActor_UAID_D85ED3561F1E231C01_1784551891
 [2022.06.22-21.36.13:316][947]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E231C01_1784551891
+[2022.06.22-21.36.40:130][499]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.06.22-21.36.40:131][499]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.22-21.37.31:105][458]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.06.22-21.37.31:109][458]LogBlueprint: Error: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\FirstPerson\Blueprints\BP_FirstPersonCharacter.uasset: [Compiler] Spawn node  Create Widget  must have a class specified.
+[2022.06.22-21.37.31:152][458]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2022.06.22-21.37.47:055][276]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.06.22-21.38.02:340][276]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.06.22-21.38.02:348][276]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.06.22-21.38.02:352][276]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.06.22-21.38.02:359][277]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.06.22-21.38.14:131][648]LogContentBrowser: Attempting asset rename: NewBlueprint -> SurvivalHUDWidget
+[2022.06.22-21.38.14:137][648]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.06.22-21.38.15:861][852]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPerson/Blueprints/SurvivalHUDWidget.SurvivalHUDWidget
+[2022.06.22-21.38.15:861][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.22-21.38.15:873][852]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.22-21.38.15:877][852]LogSlate: Warning: The command 'UMGEditor.OpenAnimDrawer' has the same default chord as 'EditorViewport.Next' [Ctrl+Shift+Space Bar]
+[2022.06.22-21.38.16:129][852]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.22-21.38.16:129][852]LogSlateStyle: Warning: Unable to find Slate Widget Style 'None'. Using FToolbarStyle defaults instead.
+[2022.06.22-21.38.16:231][852]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find SlateColor 'Foreground'.'
+[2022.06.22-21.39.08:381][588]BlueprintLog: New page: Compile MinorHungerPickup
+[2022.06.22-21.39.08:462][588]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2022.06.22-21.39.09:835][718]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/MinorHungerPickup
+[2022.06.22-21.39.09:836][718]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/MinorHungerPickupAE499A014FF74BB61877CE818487C55C.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/FirstPerson/Blueprints/MinorHungerPickup.uasset'
+[2022.06.22-21.39.09:846][718]AssetCheck: New page: Asset Save: MinorHungerPickup
+[2022.06.22-21.39.09:846][718]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/MinorHungerPickup.MinorHungerPickup
+[2022.06.22-21.39.18:123][299]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.22-21.39.18:128][299]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.22-21.39.18:128][299]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.22-21.39.18:128][299]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.22-21.39.18:128][299]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.22-21.39.18:128][299]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.22-21.39.18:128][299]LogWorldPartition: Display: GetPartitionedActors took 37 us
+[2022.06.22-21.39.18:128][299]LogWorldPartition: Display: GenerateStreaming took 261 us
+[2022.06.22-21.39.18:129][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.22-21.39.18:129][299]BlueprintLog: Warning: Blueprint failed to compile:  BP_FirstPersonCharacter
+[2022.06.22-21.39.18:130][299]LogCustomDialog: Dialog displayed:
+[2022.06.22-21.39.22:506][299]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2022.06.22-21.39.24:202][467]LogSlate: Window 'Message Log' being destroyed
+[2022.06.22-21.39.24:206][467]LogSlate: Window 'Message Log' being destroyed
+[2022.06.22-21.39.58:700][ 27]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.06.22-21.39.58:700][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.22-21.39.58:708][ 27]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.06.22-21.39.58:708][ 27]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.22-21.40.30:760][424]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.06.22-21.40.30:825][424]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2022.06.22-21.40.32:288][528]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2022.06.22-21.40.32:288][528]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/BP_FirstPersonCharacterD07436694C5C24ACD9BE658469B1C2D4.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2022.06.22-21.40.32:298][528]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2022.06.22-21.40.32:299][528]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.06.22-21.41.31:750][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.06.22-21.41.31:755][ 40]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/VH/N5TZBDSXS8FME5S20Q5GFQ_Auto5
+[2022.06.22-21.41.31:755][ 40]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/N5TZBDSXS8FME5S20Q5GFQ_Auto542F433FE4F4AE5D6660ED1868D0818CF.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/VH/N5TZBDSXS8FME5S20Q5GFQ_Auto5.uasset'
+[2022.06.22-21.41.31:756][ 40]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/32/TE5348CQUMVH5JGVVOBKYQ_Auto5
+[2022.06.22-21.41.31:756][ 40]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/TE5348CQUMVH5JGVVOBKYQ_Auto5833B47CA427AC4EF83D34F8682084348.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/32/TE5348CQUMVH5JGVVOBKYQ_Auto5.uasset'
+[2022.06.22-21.41.31:757][ 40]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/QJ/5BDZMDDALLN03TBXAWH4NC_Auto5
+[2022.06.22-21.41.31:757][ 40]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/5BDZMDDALLN03TBXAWH4NC_Auto5510029B640375EF9C84ADEABB402CB9A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/QJ/5BDZMDDALLN03TBXAWH4NC_Auto5.uasset'
+[2022.06.22-21.41.31:757][ 40]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.035
+[2022.06.22-21.41.31:757][ 40]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.035
+[2022.06.22-22.05.45:196][344]LogDerivedDataCache: C:/Users/guvas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.545 and deleted 0 file(s) with total size 0 MiB.
+[2022.06.22-22.08.34:758][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.06.22-22.08.34:783][570]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/VH/N5TZBDSXS8FME5S20Q5GFQ
+[2022.06.22-22.08.34:783][570]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/N5TZBDSXS8FME5S20Q5GFQD7335BD54E827283589A82B34681A592.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/VH/N5TZBDSXS8FME5S20Q5GFQ.uasset'
+[2022.06.22-22.08.34:785][570]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/32/TE5348CQUMVH5JGVVOBKYQ
+[2022.06.22-22.08.34:785][570]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/TE5348CQUMVH5JGVVOBKYQ1E4AAFBB46ED367F957B8B92181909BA.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/32/TE5348CQUMVH5JGVVOBKYQ.uasset'
+[2022.06.22-22.08.34:786][570]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/QJ/5BDZMDDALLN03TBXAWH4NC
+[2022.06.22-22.08.34:787][570]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/5BDZMDDALLN03TBXAWH4NC8260F7B6468012FA218914BEB289D6BF.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/QJ/5BDZMDDALLN03TBXAWH4NC.uasset'
+[2022.06.22-22.08.34:791][570]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/SurvivalHUDWidget
+[2022.06.22-22.08.34:791][570]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/SurvivalHUDWidget559742944C96605A198BD1A0F9CC5323.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/FirstPerson/Blueprints/SurvivalHUDWidget.uasset'
+[2022.06.22-22.08.34:800][570]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.22-22.08.34:801][570]LogContentValidation: Display: Validating MinorHungerPickup_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.MinorHungerPickup_C_UAID_D85ED3561F1E1D1C01_1815207834
+[2022.06.22-22.08.34:801][570]LogContentValidation: Display: Validating MinorHungerPickup_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.MinorHungerPickup_C_UAID_D85ED3561F1E1D1C01_1806936832
+[2022.06.22-22.08.34:801][570]LogContentValidation: Display: Validating MinorHungerPickup_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.MinorHungerPickup_C_UAID_D85ED3561F1E1D1C01_1811967833
+[2022.06.22-22.08.34:801][570]LogContentValidation: Display: Validating WidgetBlueprint /Game/FirstPerson/Blueprints/SurvivalHUDWidget.SurvivalHUDWidget
