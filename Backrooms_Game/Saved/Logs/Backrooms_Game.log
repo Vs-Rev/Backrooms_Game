@@ -5050,3 +5050,1094 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.06.25-15.00.41:005][678]LogContentValidation: Display: Validating Material /Game/Materials/Glass.Glass
 [2022.06.25-15.00.41:005][678]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFC1C01_1650907082
 [2022.06.25-15.00.41:005][678]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFC1C01_1153347081
+[2022.06.25-15.01.43:123][220]Cmd: DELETE
+[2022.06.25-15.01.43:123][220]Cmd: ACTOR DELETE
+[2022.06.25-15.01.43:125][220]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.01.43:145][220]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_UAID_D85ED3561F1EFF1C01_1426309611 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/DR/IBL1X5RYB98M7H98X7FZSM.PackageMetaData in its package
+[2022.06.25-15.01.43:147][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.06.25-15.01.43:149][220]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2022.06.25-15.01.43:169][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.06.25-15.01.44:915][429]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.01.44:920][429]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.01.44:920][429]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.01.44:920][429]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.01.44:920][429]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.01.44:920][429]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.01.44:920][429]LogWorldPartition: Display: GetPartitionedActors took 35 us
+[2022.06.25-15.01.44:920][429]LogWorldPartition: Display: GenerateStreaming took 299 us
+[2022.06.25-15.01.44:920][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.01.44:920][429]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:01:44)
+[2022.06.25-15.01.44:959][429]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.01.44:963][429]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.01.44:963][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004474s)
+[2022.06.25-15.01.44:963][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004534s)
+[2022.06.25-15.01.44:963][429]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.01.44:963][429]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.01.44:963][429]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.01.44:963][429]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.01.44:965][429]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.01.44:965][429]LogPlayLevel: PIE: World Init took: (0.001851s)
+[2022.06.25-15.01.44:985][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.06.25-15.01.44:986][429]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2022.06.25-15.01.44:986][429]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.01.44:986][429]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.01.44:986][429]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.01.44:986][429]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.01.44:986][429]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.01.44:986][429]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.01.44:986][429]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.01.44:986][429]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.01.44:986][429]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.01.44:986][429]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.01.44:986][429]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.01.44:988][429]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.01.44:999][429]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.01.44:999][429]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.01.44:999][429]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.01.44:999][429]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.01.44:999][429]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2022.06.25-15.01.44:999][429]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2022.06.25-15.01.45:000][429]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2022.06.25-15.01.45:000][429]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2022.06.25-15.01.45:000][429]LogInit: FAudioDevice initialized.
+[2022.06.25-15.01.45:000][429]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonMap'.
+[2022.06.25-15.01.45:012][429]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.01.45:014][429]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.01.45
+[2022.06.25-15.01.45:014][429]LogWorld: Bringing up level for play took: 0.002197
+[2022.06.25-15.01.45:015][429]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2022.06.25-15.01.45:016][429]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.01.45:017][429]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.01.45:017][429]PIE: Server logged in
+[2022.06.25-15.01.45:018][429]PIE: Play in editor total start time 0,098 seconds.
+[2022.06.25-15.01.49:910][  8]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.01.54:909][608]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 50
+[2022.06.25-15.01.55:349][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.01.55:349][656]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.01.55:349][656]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.01.55:349][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.01.55:359][656]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.01.55:362][656]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.01.55:381][656]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.01.55:381][656]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.06.25-15.01.55:382][656]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2022.06.25-15.01.55:386][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.06.25-15.01.55:410][658]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2022.06.25-15.01.58:742][ 40]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.01.58:747][ 40]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.01.58:747][ 40]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.01.58:747][ 40]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.01.58:747][ 40]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.01.58:747][ 40]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.01.58:747][ 40]LogWorldPartition: Display: GetPartitionedActors took 35 us
+[2022.06.25-15.01.58:747][ 40]LogWorldPartition: Display: GenerateStreaming took 290 us
+[2022.06.25-15.01.58:747][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.01.58:747][ 40]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:01:58)
+[2022.06.25-15.01.58:779][ 40]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.01.58:783][ 40]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.01.58:783][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004387s)
+[2022.06.25-15.01.58:783][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004445s)
+[2022.06.25-15.01.58:783][ 40]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.01.58:783][ 40]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.01.58:784][ 40]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.01.58:784][ 40]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.01.58:785][ 40]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.01.58:785][ 40]LogPlayLevel: PIE: World Init took: (0.001781s)
+[2022.06.25-15.01.58:804][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.06.25-15.01.58:805][ 40]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2022.06.25-15.01.58:805][ 40]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.01.58:805][ 40]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.01.58:805][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.01.58:805][ 40]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.01.58:805][ 40]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.01.58:805][ 40]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.01.58:805][ 40]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.01.58:805][ 40]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.01.58:805][ 40]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.01.58:805][ 40]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.01.58:805][ 40]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.01.58:806][ 40]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.01.58:816][ 40]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.01.58:817][ 40]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.01.58:817][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.01.58:817][ 40]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.01.58:817][ 40]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2022.06.25-15.01.58:817][ 40]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2022.06.25-15.01.58:818][ 40]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2022.06.25-15.01.58:818][ 40]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2022.06.25-15.01.58:818][ 40]LogInit: FAudioDevice initialized.
+[2022.06.25-15.01.58:818][ 40]LogAudio: Display: Audio Device (ID: 19) registered with world 'FirstPersonMap'.
+[2022.06.25-15.01.58:825][ 40]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.01.58:827][ 40]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.01.58
+[2022.06.25-15.01.58:827][ 40]LogWorld: Bringing up level for play took: 0.001965
+[2022.06.25-15.01.58:829][ 40]LogOnline: OSS: Created online subsystem instance for: :Context_51
+[2022.06.25-15.01.58:830][ 40]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.01.58:830][ 40]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.01.58:830][ 40]PIE: Server logged in
+[2022.06.25-15.01.58:831][ 40]PIE: Play in editor total start time 0,085 seconds.
+[2022.06.25-15.02.03:735][599]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.02.04:359][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.02.04:359][670]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.02.04:359][670]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.02.04:359][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.02.04:369][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.02.04:371][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.02.04:391][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.02.04:391][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.06.25-15.02.04:392][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2022.06.25-15.02.04:396][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.06.25-15.02.04:441][673]LogPlayLevel: Display: Destroying online subsystem :Context_51
+[2022.06.25-15.02.10:655][379]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue
+[2022.06.25-15.02.10:656][379]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_01_Cue0032F60C4F444204F5E23D910D025804.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.uasset'
+[2022.06.25-15.02.10:663][379]AssetCheck: New page: Asset Save: Light_Flicker_01_Cue
+[2022.06.25-15.02.10:663][379]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue
+[2022.06.25-15.02.17:005][108]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.02.17:010][108]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.02.17:010][108]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.02.17:010][108]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.02.17:010][108]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.02.17:010][108]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.02.17:010][108]LogWorldPartition: Display: GetPartitionedActors took 37 us
+[2022.06.25-15.02.17:010][108]LogWorldPartition: Display: GenerateStreaming took 307 us
+[2022.06.25-15.02.17:010][108]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.02.17:010][108]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:02:17)
+[2022.06.25-15.02.17:039][108]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.02.17:043][108]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.02.17:043][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004426s)
+[2022.06.25-15.02.17:043][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004490s)
+[2022.06.25-15.02.17:043][108]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.02.17:043][108]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.02.17:044][108]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.02.17:044][108]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.02.17:045][108]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.02.17:045][108]LogPlayLevel: PIE: World Init took: (0.001791s)
+[2022.06.25-15.02.17:064][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.06.25-15.02.17:066][108]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2022.06.25-15.02.17:066][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.02.17:066][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.02.17:066][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.02.17:066][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.02.17:066][108]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.02.17:066][108]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.02.17:066][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.02.17:066][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.02.17:066][108]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.02.17:066][108]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.02.17:066][108]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.02.17:067][108]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.02.17:077][108]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.02.17:078][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.02.17:078][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.02.17:078][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.02.17:078][108]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2022.06.25-15.02.17:078][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2022.06.25-15.02.17:079][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2022.06.25-15.02.17:079][108]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2022.06.25-15.02.17:079][108]LogInit: FAudioDevice initialized.
+[2022.06.25-15.02.17:079][108]LogAudio: Display: Audio Device (ID: 20) registered with world 'FirstPersonMap'.
+[2022.06.25-15.02.17:088][108]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.02.17:090][108]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.02.17
+[2022.06.25-15.02.17:090][108]LogWorld: Bringing up level for play took: 0.001963
+[2022.06.25-15.02.17:091][108]LogOnline: OSS: Created online subsystem instance for: :Context_52
+[2022.06.25-15.02.17:092][108]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.02.17:092][108]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.02.17:093][108]PIE: Server logged in
+[2022.06.25-15.02.17:093][108]PIE: Play in editor total start time 0,085 seconds.
+[2022.06.25-15.02.21:997][689]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.02.26:342][211]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_05]
+[2022.06.25-15.02.26:998][289]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 50
+[2022.06.25-15.02.31:997][889]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 25
+[2022.06.25-15.02.36:997][489]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0
+[2022.06.25-15.02.37:006][490]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Du bist Tot
+[2022.06.25-15.02.38:139][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.02.38:139][622]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.02.38:139][622]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.02.38:139][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.02.38:152][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.02.38:155][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.02.38:175][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.02.38:175][622]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.06.25-15.02.38:177][622]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2022.06.25-15.02.38:181][622]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.06.25-15.02.38:226][625]LogPlayLevel: Display: Destroying online subsystem :Context_52
+[2022.06.25-15.02.38:885][704]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.02.38:890][704]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.02.38:890][704]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.02.38:890][704]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.02.38:890][704]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.02.38:890][704]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.02.38:890][704]LogWorldPartition: Display: GetPartitionedActors took 58 us
+[2022.06.25-15.02.38:891][704]LogWorldPartition: Display: GenerateStreaming took 474 us
+[2022.06.25-15.02.38:891][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.02.38:891][704]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:02:38)
+[2022.06.25-15.02.38:891][704]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.02.38:896][704]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.02.38:896][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004741s)
+[2022.06.25-15.02.38:896][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004791s)
+[2022.06.25-15.02.38:896][704]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.02.38:896][704]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.02.38:896][704]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.02.38:896][704]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.02.38:898][704]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.02.38:898][704]LogPlayLevel: PIE: World Init took: (0.001789s)
+[2022.06.25-15.02.38:916][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.06.25-15.02.38:917][704]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2022.06.25-15.02.38:917][704]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.02.38:917][704]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.02.38:917][704]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.02.38:917][704]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.02.38:917][704]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.02.38:917][704]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.02.38:917][704]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.02.38:917][704]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.02.38:917][704]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.02.38:917][704]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.02.38:917][704]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.02.38:919][704]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.02.38:929][704]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.02.38:929][704]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.02.38:929][704]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.02.38:929][704]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.02.38:929][704]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2022.06.25-15.02.38:929][704]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2022.06.25-15.02.38:931][704]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2022.06.25-15.02.38:931][704]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2022.06.25-15.02.38:931][704]LogInit: FAudioDevice initialized.
+[2022.06.25-15.02.38:931][704]LogAudio: Display: Audio Device (ID: 21) registered with world 'FirstPersonMap'.
+[2022.06.25-15.02.38:936][704]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.02.38:938][704]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.02.38
+[2022.06.25-15.02.38:938][704]LogWorld: Bringing up level for play took: 0.001956
+[2022.06.25-15.02.38:939][704]LogOnline: OSS: Created online subsystem instance for: :Context_53
+[2022.06.25-15.02.38:940][704]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.02.38:940][704]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.02.38:941][704]PIE: Server logged in
+[2022.06.25-15.02.38:942][704]PIE: Play in editor total start time 0,053 seconds.
+[2022.06.25-15.02.43:881][290]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.02.47:449][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.02.47:449][713]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.02.47:449][713]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.02.47:449][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.02.47:458][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.02.47:461][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.02.47:481][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.02.47:481][713]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.06.25-15.02.47:482][713]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2022.06.25-15.02.47:486][713]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.06.25-15.02.47:510][715]LogPlayLevel: Display: Destroying online subsystem :Context_53
+[2022.06.25-15.03.33:730][371]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2022.06.25-15.03.33:732][371]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.023
+[2022.06.25-15.04.26:637][793]LogViewport: Scene viewport resized to 666x414, mode Windowed.
+[2022.06.25-15.04.32:315][283]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2022.06.25-15.07.57:332][131]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.07.57:338][131]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.07.57:338][131]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.07.57:338][131]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.07.57:338][131]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.07.57:338][131]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.07.57:338][131]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.06.25-15.07.57:338][131]LogWorldPartition: Display: GenerateStreaming took 417 us
+[2022.06.25-15.07.57:339][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.07.57:339][131]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:07:57)
+[2022.06.25-15.07.57:339][131]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.07.57:346][131]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.07.57:346][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006766s)
+[2022.06.25-15.07.57:346][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006808s)
+[2022.06.25-15.07.57:346][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.07.57:346][131]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.07.57:346][131]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.07.57:346][131]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.07.57:348][131]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.07.57:348][131]LogPlayLevel: PIE: World Init took: (0.002338s)
+[2022.06.25-15.07.57:371][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.06.25-15.07.57:375][131]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2022.06.25-15.07.57:375][131]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.07.57:375][131]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.07.57:375][131]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.07.57:375][131]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.07.57:375][131]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.07.57:375][131]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.07.57:375][131]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.07.57:375][131]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.07.57:375][131]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.07.57:375][131]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.07.57:375][131]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.07.57:377][131]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.07.57:387][131]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.07.57:387][131]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.07.57:387][131]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.07.57:387][131]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.07.57:388][131]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2022.06.25-15.07.57:388][131]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2022.06.25-15.07.57:389][131]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2022.06.25-15.07.57:389][131]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2022.06.25-15.07.57:389][131]LogInit: FAudioDevice initialized.
+[2022.06.25-15.07.57:389][131]LogAudio: Display: Audio Device (ID: 22) registered with world 'FirstPersonMap'.
+[2022.06.25-15.07.57:397][131]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.07.57:400][131]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.07.57
+[2022.06.25-15.07.57:400][131]LogWorld: Bringing up level for play took: 0.002984
+[2022.06.25-15.07.57:401][131]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2022.06.25-15.07.57:403][131]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.07.57:403][131]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.07.57:403][131]PIE: Server logged in
+[2022.06.25-15.07.57:404][131]PIE: Play in editor total start time 0,068 seconds.
+[2022.06.25-15.07.59:039][312]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_07]
+[2022.06.25-15.08.02:049][672]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_07]
+[2022.06.25-15.08.02:322][704]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.08.06:799][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.08.06:799][238]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.08.06:799][238]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.08.06:799][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.08.06:815][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.08.06:818][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.08.06:838][238]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-15.08.06:838][238]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.06.25-15.08.06:839][238]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2022.06.25-15.08.06:842][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.08.06:844][238]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.06.25-15.08.06:883][240]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2022.06.25-15.08.10:349][615]Cmd: DELETE
+[2022.06.25-15.08.10:349][615]Cmd: ACTOR DELETE
+[2022.06.25-15.08.10:351][615]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.08.10:371][615]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.06.25-15.08.10:374][615]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.06.25-15.08.11:374][730]Cmd: DELETE
+[2022.06.25-15.08.11:374][730]Cmd: ACTOR DELETE
+[2022.06.25-15.08.11:376][730]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.08.11:395][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.06.25-15.08.11:396][730]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.06.25-15.08.12:305][832]Cmd: DELETE
+[2022.06.25-15.08.12:305][832]Cmd: ACTOR DELETE
+[2022.06.25-15.08.12:307][832]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.08.12:327][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2022.06.25-15.08.12:328][832]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.06.25-15.08.14:600][ 99]Cmd: DELETE
+[2022.06.25-15.08.14:600][ 99]Cmd: ACTOR DELETE
+[2022.06.25-15.08.14:602][ 99]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.08.14:622][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.06.25-15.08.14:623][ 99]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.06.25-15.08.15:704][224]Cmd: DELETE
+[2022.06.25-15.08.15:704][224]Cmd: ACTOR DELETE
+[2022.06.25-15.08.15:705][224]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.08.15:725][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.06.25-15.08.15:726][224]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.06.25-15.08.16:564][318]Cmd: DELETE
+[2022.06.25-15.08.16:564][318]Cmd: ACTOR DELETE
+[2022.06.25-15.08.16:566][318]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.08.16:587][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.06.25-15.08.16:588][318]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.06.25-15.08.25:093][294]Cmd: DELETE
+[2022.06.25-15.08.25:093][294]Cmd: ACTOR DELETE
+[2022.06.25-15.08.25:094][294]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.08.25:114][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.06.25-15.08.25:116][294]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.06.25-15.08.27:386][559]Cmd: DELETE
+[2022.06.25-15.08.27:386][559]Cmd: ACTOR DELETE
+[2022.06.25-15.08.27:387][559]LogEditorActor: Deleted Actor: FlickeringLight_C
+[2022.06.25-15.08.27:407][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.06.25-15.08.27:409][559]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2022.06.25-15.08.30:177][874]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.08.30:183][874]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.08.30:183][874]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.08.30:183][874]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.08.30:183][874]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.08.30:183][874]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.08.30:183][874]LogWorldPartition: Display: GetPartitionedActors took 37 us
+[2022.06.25-15.08.30:183][874]LogWorldPartition: Display: GenerateStreaming took 377 us
+[2022.06.25-15.08.30:184][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.08.30:184][874]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:08:30)
+[2022.06.25-15.08.30:209][874]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.08.30:214][874]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.08.30:214][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005572s)
+[2022.06.25-15.08.30:214][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005637s)
+[2022.06.25-15.08.30:214][874]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.08.30:215][874]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.08.30:215][874]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.08.30:215][874]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.08.30:216][874]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.08.30:216][874]LogPlayLevel: PIE: World Init took: (0.002054s)
+[2022.06.25-15.08.30:235][874]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.06.25-15.08.30:236][874]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2022.06.25-15.08.30:236][874]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.08.30:236][874]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.08.30:236][874]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.08.30:236][874]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.08.30:236][874]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.08.30:236][874]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.08.30:236][874]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.08.30:236][874]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.08.30:236][874]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.08.30:236][874]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.08.30:236][874]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.08.30:238][874]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.08.30:248][874]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.08.30:249][874]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.08.30:249][874]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.08.30:249][874]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.08.30:250][874]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2022.06.25-15.08.30:250][874]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2022.06.25-15.08.30:250][874]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2022.06.25-15.08.30:251][874]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2022.06.25-15.08.30:251][874]LogInit: FAudioDevice initialized.
+[2022.06.25-15.08.30:251][874]LogAudio: Display: Audio Device (ID: 23) registered with world 'FirstPersonMap'.
+[2022.06.25-15.08.30:258][874]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.08.30:260][874]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.08.30
+[2022.06.25-15.08.30:260][874]LogWorld: Bringing up level for play took: 0.002446
+[2022.06.25-15.08.30:262][874]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2022.06.25-15.08.30:263][874]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.08.30:263][874]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.08.30:263][874]PIE: Server logged in
+[2022.06.25-15.08.30:264][874]PIE: Play in editor total start time 0,082 seconds.
+[2022.06.25-15.08.33:389][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.08.33:389][227]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.08.33:389][227]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.08.33:389][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.08.33:396][227]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.08.33:398][227]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.08.33:418][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.08.33:418][227]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.06.25-15.08.33:420][227]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2022.06.25-15.08.33:424][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.06.25-15.08.33:472][230]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2022.06.25-15.10.04:069][ 67]Cmd: TRANSACTION UNDO
+[2022.06.25-15.10.04:069][ 67]LogEditorTransaction: Undo Clicking on Elements
+[2022.06.25-15.10.04:529][ 80]Cmd: TRANSACTION UNDO
+[2022.06.25-15.10.04:529][ 80]LogEditorTransaction: Undo Rotate Elements
+[2022.06.25-15.11.15:735][154]LogDerivedDataCache: C:/Users/guvas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.636 and deleted 0 file(s) with total size 0 MiB.
+[2022.06.25-15.13.36:155][900]Cmd: TRANSACTION UNDO
+[2022.06.25-15.13.36:155][900]LogEditorTransaction: Undo Move Elements
+[2022.06.25-15.14.28:591][695]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.14.28:598][695]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.14.28:598][695]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.14.28:598][695]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.14.28:598][695]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.14.28:598][695]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.14.28:598][695]LogWorldPartition: Display: GetPartitionedActors took 47 us
+[2022.06.25-15.14.28:599][695]LogWorldPartition: Display: GenerateStreaming took 538 us
+[2022.06.25-15.14.28:599][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.14.28:599][695]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:14:28)
+[2022.06.25-15.14.28:638][695]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.14.28:645][695]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.14.28:645][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007176s)
+[2022.06.25-15.14.28:645][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007240s)
+[2022.06.25-15.14.28:646][695]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.14.28:646][695]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.14.28:646][695]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.14.28:646][695]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.14.28:648][695]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.14.28:648][695]LogPlayLevel: PIE: World Init took: (0.002562s)
+[2022.06.25-15.14.28:669][695]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.06.25-15.14.28:673][695]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2022.06.25-15.14.28:673][695]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.14.28:673][695]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.14.28:673][695]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.14.28:673][695]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.14.28:673][695]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.14.28:673][695]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.14.28:673][695]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.14.28:673][695]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.14.28:673][695]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.14.28:673][695]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.14.28:673][695]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.14.28:675][695]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.14.28:686][695]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.14.28:686][695]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.14.28:686][695]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.14.28:686][695]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.14.28:687][695]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2022.06.25-15.14.28:687][695]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2022.06.25-15.14.28:688][695]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2022.06.25-15.14.28:688][695]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2022.06.25-15.14.28:688][695]LogInit: FAudioDevice initialized.
+[2022.06.25-15.14.28:688][695]LogAudio: Display: Audio Device (ID: 24) registered with world 'FirstPersonMap'.
+[2022.06.25-15.14.28:698][695]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.14.28:701][695]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.14.28
+[2022.06.25-15.14.28:701][695]LogWorld: Bringing up level for play took: 0.003145
+[2022.06.25-15.14.28:702][695]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2022.06.25-15.14.28:703][695]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.14.28:703][695]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.14.28:704][695]PIE: Server logged in
+[2022.06.25-15.14.28:705][695]PIE: Play in editor total start time 0,109 seconds.
+[2022.06.25-15.14.33:586][271]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.14.38:587][871]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 50
+[2022.06.25-15.14.41:119][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.14.41:119][172]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.14.41:119][172]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.14.41:120][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.14.41:127][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.14.41:130][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.14.41:152][172]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-15.14.41:152][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.06.25-15.14.41:153][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2022.06.25-15.14.41:155][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.14.41:157][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.06.25-15.14.41:205][174]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2022.06.25-15.15.10:664][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.06.25-15.15.10:667][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/9J/EXB3X1WUQKLXKN7D3WR0P0_Auto7
+[2022.06.25-15.15.10:667][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/EXB3X1WUQKLXKN7D3WR0P0_Auto778ED8AA74B94C0333EDFFBB405E8997E.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/9J/EXB3X1WUQKLXKN7D3WR0P0_Auto7.uasset'
+[2022.06.25-15.15.10:668][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/AO/RIP78PS2I1WQY5IX4DCZFP_Auto7
+[2022.06.25-15.15.10:668][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/RIP78PS2I1WQY5IX4DCZFP_Auto72083BE464210FFD24F404893821C83EC.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/AO/RIP78PS2I1WQY5IX4DCZFP_Auto7.uasset'
+[2022.06.25-15.15.10:669][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/RR/821RMDGIDG4U4RCC6P8EEW_Auto7
+[2022.06.25-15.15.10:670][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/821RMDGIDG4U4RCC6P8EEW_Auto7CAD8F76D42991A340E65A88FF91F074C.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/RR/821RMDGIDG4U4RCC6P8EEW_Auto7.uasset'
+[2022.06.25-15.15.10:671][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/7G/T2KZYUA60RPUJ20GLMB7KW_Auto7
+[2022.06.25-15.15.10:671][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/T2KZYUA60RPUJ20GLMB7KW_Auto74E46106741BD6C1E3B8E9492830B25FF.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/7G/T2KZYUA60RPUJ20GLMB7KW_Auto7.uasset'
+[2022.06.25-15.15.10:672][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G_Auto7
+[2022.06.25-15.15.10:672][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/PDQ0AB8RLNMVID876FD49G_Auto7869089A7442E93ABEF334D96E9189D1C.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G_Auto7.uasset'
+[2022.06.25-15.15.10:673][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/X1/IE2891CN6QCGPIACXNURQS_Auto7
+[2022.06.25-15.15.10:673][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/IE2891CN6QCGPIACXNURQS_Auto7EB32BEE94AB7B060FBB441867A054CFC.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/X1/IE2891CN6QCGPIACXNURQS_Auto7.uasset'
+[2022.06.25-15.15.10:674][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/8Z/VIZN30K245CXHCT88I5HHU_Auto7
+[2022.06.25-15.15.10:674][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/VIZN30K245CXHCT88I5HHU_Auto76EFA2F93484FAF17B4CCE0BF6C0923D4.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/8Z/VIZN30K245CXHCT88I5HHU_Auto7.uasset'
+[2022.06.25-15.15.10:675][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/30/99UYPWAAH6GI49SBZ4U0SZ_Auto7
+[2022.06.25-15.15.10:675][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/99UYPWAAH6GI49SBZ4U0SZ_Auto7D56CF51E4F32228C1A01B58C238BE020.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/30/99UYPWAAH6GI49SBZ4U0SZ_Auto7.uasset'
+[2022.06.25-15.15.10:676][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Z1/FULVQWESWRNNQ0OPIDDZSY_Auto7
+[2022.06.25-15.15.10:676][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FULVQWESWRNNQ0OPIDDZSY_Auto78DD5EE4C4F9467D8FFA94BA8F9A4F1C5.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Z1/FULVQWESWRNNQ0OPIDDZSY_Auto7.uasset'
+[2022.06.25-15.15.10:678][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/Z7/U6J3JX3QS6KEE2IPJ1VG4R_Auto7
+[2022.06.25-15.15.10:678][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/U6J3JX3QS6KEE2IPJ1VG4R_Auto77F41104343FBD0008FC591AECD410B03.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/Z7/U6J3JX3QS6KEE2IPJ1VG4R_Auto7.uasset'
+[2022.06.25-15.15.10:678][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/8I/O08YETGSU97E86LAGY4EUA_Auto7
+[2022.06.25-15.15.10:678][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/O08YETGSU97E86LAGY4EUA_Auto74B39752F4B6DE518D997F0B9B9D26B6C.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/8I/O08YETGSU97E86LAGY4EUA_Auto7.uasset'
+[2022.06.25-15.15.10:679][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/7W/404WAWUZ0JWZHJSEEDDT5K_Auto7
+[2022.06.25-15.15.10:679][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/404WAWUZ0JWZHJSEEDDT5K_Auto76207469A4E33983A121EFFA6851565A6.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/7W/404WAWUZ0JWZHJSEEDDT5K_Auto7.uasset'
+[2022.06.25-15.15.10:680][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/NR/F7PIL1BLP41OUW54M9NQAW_Auto7
+[2022.06.25-15.15.10:680][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/F7PIL1BLP41OUW54M9NQAW_Auto71A15322D4F7BD8ED3D136BA0A0A39232.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/NR/F7PIL1BLP41OUW54M9NQAW_Auto7.uasset'
+[2022.06.25-15.15.10:681][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/5E/EISFAQBT6Q4THASEABOUO3_Auto7
+[2022.06.25-15.15.10:681][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/EISFAQBT6Q4THASEABOUO3_Auto7AD2D0D274DA2D5C5568BCF8678867EE5.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/5E/EISFAQBT6Q4THASEABOUO3_Auto7.uasset'
+[2022.06.25-15.15.10:682][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/9T/F07U82YXT9BWSX8AUERSMK_Auto7
+[2022.06.25-15.15.10:683][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/F07U82YXT9BWSX8AUERSMK_Auto7FC7C026740903866A1C508BDBBB005C2.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/9T/F07U82YXT9BWSX8AUERSMK_Auto7.uasset'
+[2022.06.25-15.15.10:684][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/GZ/Z94C52KJQ9CT0TGABFDX48_Auto7
+[2022.06.25-15.15.10:684][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Z94C52KJQ9CT0TGABFDX48_Auto7E0097A7047768EDA083B3CADB0CF3E33.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/GZ/Z94C52KJQ9CT0TGABFDX48_Auto7.uasset'
+[2022.06.25-15.15.10:685][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NE/RZD5KFTKQCDNSM6SZ43B8S_Auto7
+[2022.06.25-15.15.10:685][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/RZD5KFTKQCDNSM6SZ43B8S_Auto7D9C6A927443FB4D2450A6682AA51AEE9.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NE/RZD5KFTKQCDNSM6SZ43B8S_Auto7.uasset'
+[2022.06.25-15.15.10:686][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HJ/RS64VUPQ3DEEBR2QZNSXKR_Auto7
+[2022.06.25-15.15.10:687][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/RS64VUPQ3DEEBR2QZNSXKR_Auto7D5E8454A4310B2946A9549826402FF6F.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HJ/RS64VUPQ3DEEBR2QZNSXKR_Auto7.uasset'
+[2022.06.25-15.15.10:688][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FG/KLFDJWB2A5VV3H1FXUY8TS_Auto7
+[2022.06.25-15.15.10:688][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/KLFDJWB2A5VV3H1FXUY8TS_Auto7C252FF4343BFA29B6AF8D6B2D083F68F.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FG/KLFDJWB2A5VV3H1FXUY8TS_Auto7.uasset'
+[2022.06.25-15.15.10:689][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/U6/5NZ60HFVL6KJ550INZ2Z27_Auto7
+[2022.06.25-15.15.10:689][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/5NZ60HFVL6KJ550INZ2Z27_Auto7B25A50494B37F705C5E7909C5CE296CE.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/U6/5NZ60HFVL6KJ550INZ2Z27_Auto7.uasset'
+[2022.06.25-15.15.10:690][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/Z4/N51JKFFENQC811HPP63DJ1_Auto7
+[2022.06.25-15.15.10:690][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/N51JKFFENQC811HPP63DJ1_Auto7053CDAFA40C7B4E370475693C3473462.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/Z4/N51JKFFENQC811HPP63DJ1_Auto7.uasset'
+[2022.06.25-15.15.10:691][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/U9/FX75CBCSJN1Y9J8W0ZJYWB_Auto7
+[2022.06.25-15.15.10:692][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FX75CBCSJN1Y9J8W0ZJYWB_Auto70078ACC345D2D1F716C4E190E2A42234.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/U9/FX75CBCSJN1Y9J8W0ZJYWB_Auto7.uasset'
+[2022.06.25-15.15.10:693][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/AD/OVUIR3A5ZDV11E6IAFMT6W_Auto7
+[2022.06.25-15.15.10:693][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/OVUIR3A5ZDV11E6IAFMT6W_Auto7D7AC7902491597F9AEE61A9E851F0387.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/AD/OVUIR3A5ZDV11E6IAFMT6W_Auto7.uasset'
+[2022.06.25-15.15.10:694][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/F7/QPX00CJYQN5FUCX2OEEIRP_Auto7
+[2022.06.25-15.15.10:694][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/QPX00CJYQN5FUCX2OEEIRP_Auto7D93060F646DDA1CA49EE2E8D57A0E725.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/F7/QPX00CJYQN5FUCX2OEEIRP_Auto7.uasset'
+[2022.06.25-15.15.10:695][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/N4/DFV6RRWSUJ4QMTDBZI2UQR_Auto7
+[2022.06.25-15.15.10:695][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/DFV6RRWSUJ4QMTDBZI2UQR_Auto7B92D510542DD202C6712B0B65BEC4ED2.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/N4/DFV6RRWSUJ4QMTDBZI2UQR_Auto7.uasset'
+[2022.06.25-15.15.10:696][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/Y1/4J91LX8S8TGQEEHKHTFMD6_Auto7
+[2022.06.25-15.15.10:696][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/4J91LX8S8TGQEEHKHTFMD6_Auto76CAED0C248655C51FFEC259CED5F17D7.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/Y1/4J91LX8S8TGQEEHKHTFMD6_Auto7.uasset'
+[2022.06.25-15.15.10:697][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/2T/MELAKTVKU39YAJ33PHQKN0_Auto7
+[2022.06.25-15.15.10:697][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/MELAKTVKU39YAJ33PHQKN0_Auto7B50B9251415EF6D66AC177B56E56CC0A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/2T/MELAKTVKU39YAJ33PHQKN0_Auto7.uasset'
+[2022.06.25-15.15.10:699][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/PB/JEGKKLSY931II8D5UW1PZD_Auto7
+[2022.06.25-15.15.10:699][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/JEGKKLSY931II8D5UW1PZD_Auto7B9E36C0B41902B8AEFF213A08A2E13BB.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/PB/JEGKKLSY931II8D5UW1PZD_Auto7.uasset'
+[2022.06.25-15.15.10:700][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/BS/EOIF8LPJWCOVRTQW2SF89T_Auto7
+[2022.06.25-15.15.10:700][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/EOIF8LPJWCOVRTQW2SF89T_Auto764B93C1B41FA0A6DEB8E289144730E96.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/BS/EOIF8LPJWCOVRTQW2SF89T_Auto7.uasset'
+[2022.06.25-15.15.10:701][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/11/SC6C741SPUCBUMQCL4O35L_Auto7
+[2022.06.25-15.15.10:701][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/SC6C741SPUCBUMQCL4O35L_Auto7360CE3A44896BEED15881095E67E5074.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/11/SC6C741SPUCBUMQCL4O35L_Auto7.uasset'
+[2022.06.25-15.15.10:702][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/8T/7UAMUKLZZW5X3FRMETGENQ_Auto7
+[2022.06.25-15.15.10:702][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/7UAMUKLZZW5X3FRMETGENQ_Auto7A300CFF5449CFA993945999B20E0FE00.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/8T/7UAMUKLZZW5X3FRMETGENQ_Auto7.uasset'
+[2022.06.25-15.15.10:703][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NL/G9LGCZ9T514N27SRLR2LGP_Auto7
+[2022.06.25-15.15.10:704][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/G9LGCZ9T514N27SRLR2LGP_Auto7E199C111404167F7567E18ABB4A5CD70.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NL/G9LGCZ9T514N27SRLR2LGP_Auto7.uasset'
+[2022.06.25-15.15.10:705][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5S/JU00XPOWGMCAKDROFT49ZE_Auto7
+[2022.06.25-15.15.10:705][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/JU00XPOWGMCAKDROFT49ZE_Auto72D7E4C14462E5C38932A3BACA2580413.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5S/JU00XPOWGMCAKDROFT49ZE_Auto7.uasset'
+[2022.06.25-15.15.10:706][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/2N/WCXZ9I38ZMNEL290QBP2JV_Auto7
+[2022.06.25-15.15.10:706][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/WCXZ9I38ZMNEL290QBP2JV_Auto7DC7DA6AC4334F44EEB921E820971EB3D.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/2N/WCXZ9I38ZMNEL290QBP2JV_Auto7.uasset'
+[2022.06.25-15.15.10:707][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/2L/WCT8A2D0H33K1EAR3V0CSE_Auto7
+[2022.06.25-15.15.10:707][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/WCT8A2D0H33K1EAR3V0CSE_Auto7D5647F4642FFF002555DF1B4CC6237BE.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/2L/WCT8A2D0H33K1EAR3V0CSE_Auto7.uasset'
+[2022.06.25-15.15.10:708][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/B7/6S6EEJVL6EMV5OCENXLZVI_Auto7
+[2022.06.25-15.15.10:708][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/6S6EEJVL6EMV5OCENXLZVI_Auto787560E374814A9059D4B81A240B9F3C7.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/B7/6S6EEJVL6EMV5OCENXLZVI_Auto7.uasset'
+[2022.06.25-15.15.10:709][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/BN/HCA56HUURQQSJ4WUNH7URH_Auto7
+[2022.06.25-15.15.10:709][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/HCA56HUURQQSJ4WUNH7URH_Auto7152DF9A8473F2AA5C8F3678443FE0D63.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/BN/HCA56HUURQQSJ4WUNH7URH_Auto7.uasset'
+[2022.06.25-15.15.10:711][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5O/50FFY88AWAZYKTOY0L6SNS_Auto7
+[2022.06.25-15.15.10:711][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/50FFY88AWAZYKTOY0L6SNS_Auto7AB5E095C4A11E60590E2DC8AF5020713.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5O/50FFY88AWAZYKTOY0L6SNS_Auto7.uasset'
+[2022.06.25-15.15.10:712][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1B/0NK4VXK3B5QEX2NQLJOVB3_Auto7
+[2022.06.25-15.15.10:712][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/0NK4VXK3B5QEX2NQLJOVB3_Auto768C4A1404A691093C45E1D8AA50EABE7.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1B/0NK4VXK3B5QEX2NQLJOVB3_Auto7.uasset'
+[2022.06.25-15.15.10:713][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/DR/EGZTCASUV1V1PT8AMQTPEI_Auto7
+[2022.06.25-15.15.10:713][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/EGZTCASUV1V1PT8AMQTPEI_Auto755DDCA054A49A7A6FFF96096CCFB1E88.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/DR/EGZTCASUV1V1PT8AMQTPEI_Auto7.uasset'
+[2022.06.25-15.15.10:714][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/FU/V228XMWTRYUJYES9WF3M6T_Auto7
+[2022.06.25-15.15.10:714][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/V228XMWTRYUJYES9WF3M6T_Auto779B8335846CAE1ADB382669748EDCDC4.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/FU/V228XMWTRYUJYES9WF3M6T_Auto7.uasset'
+[2022.06.25-15.15.10:715][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Z3/Z9OW048CWY1SP30FM1AAVP_Auto7
+[2022.06.25-15.15.10:715][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Z9OW048CWY1SP30FM1AAVP_Auto77E5EC2204DF931BADBD705AA47A88FCC.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Z3/Z9OW048CWY1SP30FM1AAVP_Auto7.uasset'
+[2022.06.25-15.15.10:716][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TW/26LFJIO5M5KJVJO54GEC6C_Auto7
+[2022.06.25-15.15.10:716][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/26LFJIO5M5KJVJO54GEC6C_Auto75E95B9D3402CDAA09665F49FD4513271.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TW/26LFJIO5M5KJVJO54GEC6C_Auto7.uasset'
+[2022.06.25-15.15.10:718][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/TR/KHMUDOBO4SZBIERVPAA7VH_Auto7
+[2022.06.25-15.15.10:718][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/KHMUDOBO4SZBIERVPAA7VH_Auto77219837F48383FFB3A49D895036170C4.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/TR/KHMUDOBO4SZBIERVPAA7VH_Auto7.uasset'
+[2022.06.25-15.15.10:719][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/28/8NTZK0WBZ9HD6EW5YZH0HI_Auto7
+[2022.06.25-15.15.10:719][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/8NTZK0WBZ9HD6EW5YZH0HI_Auto7F6E207564307653A6F2ACBB4EB5B0F73.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/28/8NTZK0WBZ9HD6EW5YZH0HI_Auto7.uasset'
+[2022.06.25-15.15.10:720][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/KQ/POJ6JT5L3N2BBO09ADGA4O_Auto7
+[2022.06.25-15.15.10:720][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/POJ6JT5L3N2BBO09ADGA4O_Auto76B51C31A4A4C1E8A616900A7F56DBF9A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/KQ/POJ6JT5L3N2BBO09ADGA4O_Auto7.uasset'
+[2022.06.25-15.15.10:721][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/5F/JR72217PZ5H0EXK5CKTVYB_Auto7
+[2022.06.25-15.15.10:721][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/JR72217PZ5H0EXK5CKTVYB_Auto7399D6BB246BEB2714EF345BE50479DF3.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/5F/JR72217PZ5H0EXK5CKTVYB_Auto7.uasset'
+[2022.06.25-15.15.10:722][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/9U/GL0MQ27JNWUHVA9V1KE6QJ_Auto7
+[2022.06.25-15.15.10:722][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/GL0MQ27JNWUHVA9V1KE6QJ_Auto727C7F0464BA5B7583BB0FEB1A1F6C08A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/9U/GL0MQ27JNWUHVA9V1KE6QJ_Auto7.uasset'
+[2022.06.25-15.15.10:724][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/W2/XG81ZD5QGOEDVN93N1NNHL_Auto7
+[2022.06.25-15.15.10:724][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/XG81ZD5QGOEDVN93N1NNHL_Auto75E9138C54A09008992D6AF94E7870C57.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/W2/XG81ZD5QGOEDVN93N1NNHL_Auto7.uasset'
+[2022.06.25-15.15.10:725][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/2P/6JWAFIK5KAPWR9XWRV58CV_Auto7
+[2022.06.25-15.15.10:725][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/6JWAFIK5KAPWR9XWRV58CV_Auto796CF31C74C035C1CD71191824E89CEF1.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/2P/6JWAFIK5KAPWR9XWRV58CV_Auto7.uasset'
+[2022.06.25-15.15.10:726][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ET/YLVQN2Q1ZLCCNCZMMYTTS3_Auto7
+[2022.06.25-15.15.10:726][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/YLVQN2Q1ZLCCNCZMMYTTS3_Auto79A121E8F462656AC936D429239CCBFC9.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ET/YLVQN2Q1ZLCCNCZMMYTTS3_Auto7.uasset'
+[2022.06.25-15.15.10:727][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/MK/3D9D3EEV60XBL3PJ492PEB_Auto7
+[2022.06.25-15.15.10:727][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/3D9D3EEV60XBL3PJ492PEB_Auto7E29321FC498DD3934038AEB03AA2CD5B.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/MK/3D9D3EEV60XBL3PJ492PEB_Auto7.uasset'
+[2022.06.25-15.15.10:728][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/PG/B21XYSL008US180T69BHVN_Auto7
+[2022.06.25-15.15.10:729][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/B21XYSL008US180T69BHVN_Auto78BEC97DD43155112746D25B1AA62B5F3.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/PG/B21XYSL008US180T69BHVN_Auto7.uasset'
+[2022.06.25-15.15.10:730][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/S4/VN10A5HM829QWMVG0DU7DA_Auto7
+[2022.06.25-15.15.10:730][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/VN10A5HM829QWMVG0DU7DA_Auto71D891A0C46EB81DB3C8A17B513D4CA16.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/S4/VN10A5HM829QWMVG0DU7DA_Auto7.uasset'
+[2022.06.25-15.15.10:731][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/Y9/FUK217FKS1276H3G7VD6R2_Auto7
+[2022.06.25-15.15.10:731][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FUK217FKS1276H3G7VD6R2_Auto71CF61B5340D1C96738D5A59FA4BCFE63.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/Y9/FUK217FKS1276H3G7VD6R2_Auto7.uasset'
+[2022.06.25-15.15.10:732][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/JC/38K166T9WKVFRG6UB5RL9T_Auto7
+[2022.06.25-15.15.10:732][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/38K166T9WKVFRG6UB5RL9T_Auto79DADC0AF475E0494581815A3F1BB93AB.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/JC/38K166T9WKVFRG6UB5RL9T_Auto7.uasset'
+[2022.06.25-15.15.10:733][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/Z1/6EEA0OBCIJEJVUCL4IEPU2_Auto7
+[2022.06.25-15.15.10:733][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/6EEA0OBCIJEJVUCL4IEPU2_Auto77251CB494CF7D78C42DDDAA6F60736C6.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/Z1/6EEA0OBCIJEJVUCL4IEPU2_Auto7.uasset'
+[2022.06.25-15.15.10:734][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/18/JTUB9PDVYO6WQAKJGYHXQ6_Auto7
+[2022.06.25-15.15.10:734][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/JTUB9PDVYO6WQAKJGYHXQ6_Auto74ABFF572407ED03DB7AC80BB87FD2EDE.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/18/JTUB9PDVYO6WQAKJGYHXQ6_Auto7.uasset'
+[2022.06.25-15.15.10:735][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Q9/NKJMVGG3ZDYNUHB7NH1OMA_Auto7
+[2022.06.25-15.15.10:735][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/NKJMVGG3ZDYNUHB7NH1OMA_Auto7EBFEEA9B44F5A6C1D543AF87F2355F20.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Q9/NKJMVGG3ZDYNUHB7NH1OMA_Auto7.uasset'
+[2022.06.25-15.15.10:736][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/XF/8GYQ1QCXS8C6T6LDP1H1KP_Auto7
+[2022.06.25-15.15.10:737][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/8GYQ1QCXS8C6T6LDP1H1KP_Auto7E15ED917499AE6D2A67B6EAE9FED832F.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/XF/8GYQ1QCXS8C6T6LDP1H1KP_Auto7.uasset'
+[2022.06.25-15.15.10:738][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/BY/LDHAI2BZA35Q3HC4SET78Y_Auto7
+[2022.06.25-15.15.10:738][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/LDHAI2BZA35Q3HC4SET78Y_Auto72292AC5F4E18975CDEDDDBBEF29C1C5B.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/BY/LDHAI2BZA35Q3HC4SET78Y_Auto7.uasset'
+[2022.06.25-15.15.10:739][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/B9/NHW7QGE05L38PPWLKX7THO_Auto7
+[2022.06.25-15.15.10:739][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/NHW7QGE05L38PPWLKX7THO_Auto72DC867394168705F01B6BEB3F6029CA5.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/B9/NHW7QGE05L38PPWLKX7THO_Auto7.uasset'
+[2022.06.25-15.15.10:740][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/DP/0UYY6TZN5586VAIWNMYZ2I_Auto7
+[2022.06.25-15.15.10:740][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/0UYY6TZN5586VAIWNMYZ2I_Auto7D560C98648CB013AFC9F03B82D803DA2.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/DP/0UYY6TZN5586VAIWNMYZ2I_Auto7.uasset'
+[2022.06.25-15.15.10:741][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/3J/X6ZQQAYLY96I4XGV2NFV3M_Auto7
+[2022.06.25-15.15.10:741][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/X6ZQQAYLY96I4XGV2NFV3M_Auto72C41782043B3D8ABB15C5FB5D9D3CC15.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/3J/X6ZQQAYLY96I4XGV2NFV3M_Auto7.uasset'
+[2022.06.25-15.15.10:742][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/MM/BJ1M2T3IZ60CATSLBTI3C8_Auto7
+[2022.06.25-15.15.10:742][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/BJ1M2T3IZ60CATSLBTI3C8_Auto70C0777BD475FB74EAF1FB4B248338ECD.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/MM/BJ1M2T3IZ60CATSLBTI3C8_Auto7.uasset'
+[2022.06.25-15.15.10:743][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/UK/8U0LO7D6UAZNQ90YOS3ZNB_Auto7
+[2022.06.25-15.15.10:743][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/8U0LO7D6UAZNQ90YOS3ZNB_Auto72C76F2654F9FBFE56CE05AB96F35FE79.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/UK/8U0LO7D6UAZNQ90YOS3ZNB_Auto7.uasset'
+[2022.06.25-15.15.10:745][970]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/6E/QI9VUPWWDFDP4E9B79TRZ2_Auto7
+[2022.06.25-15.15.10:745][970]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/QI9VUPWWDFDP4E9B79TRZ2_Auto7898F578E46BEC87731C786AB4767DEF1.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/6E/QI9VUPWWDFDP4E9B79TRZ2_Auto7.uasset'
+[2022.06.25-15.15.10:746][970]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.101
+[2022.06.25-15.15.10:746][970]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.101
+[2022.06.25-15.15.38:578][201]Cmd: DELETE
+[2022.06.25-15.15.38:578][201]Cmd: ACTOR DELETE
+[2022.06.25-15.15.38:581][201]LogEditorActor: Deleted Actor: PointLight
+[2022.06.25-15.15.38:601][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.06.25-15.15.38:603][201]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.06.25-15.15.44:297][843]Cmd: DELETE
+[2022.06.25-15.15.44:297][843]Cmd: ACTOR DELETE
+[2022.06.25-15.15.44:299][843]LogEditorActor: Deleted Actor: DirectionalLight
+[2022.06.25-15.15.44:319][843]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.06.25-15.15.44:321][843]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2022.06.25-15.15.46:599][112]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.15.46:606][112]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.15.46:606][112]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.15.46:606][112]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.15.46:606][112]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.15.46:606][112]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.15.46:606][112]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.06.25-15.15.46:606][112]LogWorldPartition: Display: GenerateStreaming took 493 us
+[2022.06.25-15.15.46:606][112]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.15.46:606][112]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:15:46)
+[2022.06.25-15.15.46:629][112]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.15.46:635][112]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.15.46:635][112]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006756s)
+[2022.06.25-15.15.46:636][112]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006823s)
+[2022.06.25-15.15.46:636][112]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.15.46:636][112]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.15.46:636][112]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.15.46:636][112]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.15.46:638][112]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.15.46:638][112]LogPlayLevel: PIE: World Init took: (0.002414s)
+[2022.06.25-15.15.46:658][112]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.06.25-15.15.46:659][112]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2022.06.25-15.15.46:659][112]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.15.46:659][112]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.15.46:659][112]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.15.46:659][112]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.15.46:659][112]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.15.46:659][112]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.15.46:659][112]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.15.46:659][112]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.15.46:660][112]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.15.46:660][112]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.15.46:660][112]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.15.46:661][112]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.15.46:671][112]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.15.46:672][112]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.15.46:672][112]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.15.46:672][112]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.15.46:672][112]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2022.06.25-15.15.46:672][112]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2022.06.25-15.15.46:673][112]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2022.06.25-15.15.46:673][112]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2022.06.25-15.15.46:673][112]LogInit: FAudioDevice initialized.
+[2022.06.25-15.15.46:673][112]LogAudio: Display: Audio Device (ID: 25) registered with world 'FirstPersonMap'.
+[2022.06.25-15.15.46:683][112]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.15.46:686][112]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.15.46
+[2022.06.25-15.15.46:687][112]LogWorld: Bringing up level for play took: 0.003071
+[2022.06.25-15.15.46:688][112]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2022.06.25-15.15.46:689][112]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.15.46:689][112]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.15.46:690][112]PIE: Server logged in
+[2022.06.25-15.15.46:690][112]PIE: Play in editor total start time 0,087 seconds.
+[2022.06.25-15.15.50:301][539]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_07]
+[2022.06.25-15.15.51:599][694]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.15.56:598][294]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 50
+[2022.06.25-15.15.57:943][456]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_05]
+[2022.06.25-15.16.01:598][894]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 25
+[2022.06.25-15.16.02:888][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.16.02:888][ 45]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.16.02:889][ 45]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.16.02:889][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.16.02:898][ 45]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.16.02:901][ 45]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.16.02:921][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.16.02:922][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.06.25-15.16.02:923][ 45]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2022.06.25-15.16.02:928][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2022.06.25-15.16.02:975][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2022.06.25-15.16.57:583][240]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.16.57:590][240]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.16.57:590][240]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.16.57:590][240]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.16.57:590][240]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.16.57:590][240]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.16.57:590][240]LogWorldPartition: Display: GetPartitionedActors took 43 us
+[2022.06.25-15.16.57:591][240]LogWorldPartition: Display: GenerateStreaming took 537 us
+[2022.06.25-15.16.57:591][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.16.57:591][240]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:16:57)
+[2022.06.25-15.16.57:629][240]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.16.57:636][240]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.16.57:636][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007060s)
+[2022.06.25-15.16.57:636][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007126s)
+[2022.06.25-15.16.57:636][240]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.16.57:636][240]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.16.57:637][240]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.16.57:637][240]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.16.57:638][240]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.16.57:638][240]LogPlayLevel: PIE: World Init took: (0.002486s)
+[2022.06.25-15.16.57:659][240]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.06.25-15.16.57:663][240]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2022.06.25-15.16.57:663][240]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.16.57:663][240]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.16.57:663][240]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.16.57:663][240]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.16.57:663][240]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.16.57:663][240]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.16.57:663][240]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.16.57:663][240]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.16.57:663][240]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.16.57:663][240]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.16.57:663][240]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.16.57:665][240]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.16.57:675][240]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.16.57:675][240]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.16.57:675][240]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.16.57:675][240]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.16.57:675][240]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2022.06.25-15.16.57:675][240]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2022.06.25-15.16.57:676][240]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2022.06.25-15.16.57:676][240]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2022.06.25-15.16.57:676][240]LogInit: FAudioDevice initialized.
+[2022.06.25-15.16.57:676][240]LogAudio: Display: Audio Device (ID: 26) registered with world 'FirstPersonMap'.
+[2022.06.25-15.16.57:685][240]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.16.57:688][240]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.16.57
+[2022.06.25-15.16.57:688][240]LogWorld: Bringing up level for play took: 0.003246
+[2022.06.25-15.16.57:689][240]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2022.06.25-15.16.57:691][240]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.16.57:691][240]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.16.57:691][240]PIE: Server logged in
+[2022.06.25-15.16.57:692][240]PIE: Play in editor total start time 0,104 seconds.
+[2022.06.25-15.17.02:580][795]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.17.03:291][881]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_07]
+[2022.06.25-15.17.07:580][395]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 50
+[2022.06.25-15.17.12:580][995]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 25
+[2022.06.25-15.17.13:291][ 81]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_07]
+[2022.06.25-15.17.17:580][595]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0
+[2022.06.25-15.17.17:589][596]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Du bist Tot
+[2022.06.25-15.17.19:009][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.17.19:009][762]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.17.19:009][762]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.17.19:010][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.17.19:019][762]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.17.19:022][762]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.17.19:042][762]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-15.17.19:042][762]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.06.25-15.17.19:044][762]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2022.06.25-15.17.19:046][762]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.17.19:048][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.06.25-15.17.19:104][764]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2022.06.25-15.17.25:576][497]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-15.17.25:582][497]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-15.17.25:582][497]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-15.17.25:582][497]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.17.25:582][497]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-15.17.25:582][497]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-15.17.25:582][497]LogWorldPartition: Display: GetPartitionedActors took 42 us
+[2022.06.25-15.17.25:583][497]LogWorldPartition: Display: GenerateStreaming took 485 us
+[2022.06.25-15.17.25:583][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-15.17.25:583][497]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 19:17:25)
+[2022.06.25-15.17.25:619][497]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.17.25:626][497]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-15.17.25:626][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006844s)
+[2022.06.25-15.17.25:626][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.006904s)
+[2022.06.25-15.17.25:626][497]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-15.17.25:626][497]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-15.17.25:626][497]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-15.17.25:626][497]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-15.17.25:628][497]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-15.17.25:628][497]LogPlayLevel: PIE: World Init took: (0.002430s)
+[2022.06.25-15.17.25:647][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.06.25-15.17.25:648][497]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2022.06.25-15.17.25:648][497]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-15.17.25:648][497]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-15.17.25:648][497]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-15.17.25:648][497]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-15.17.25:648][497]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-15.17.25:648][497]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-15.17.25:648][497]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-15.17.25:648][497]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-15.17.25:649][497]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-15.17.25:649][497]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-15.17.25:649][497]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-15.17.25:650][497]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-15.17.25:660][497]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-15.17.25:661][497]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-15.17.25:661][497]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-15.17.25:661][497]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-15.17.25:661][497]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2022.06.25-15.17.25:661][497]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2022.06.25-15.17.25:662][497]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2022.06.25-15.17.25:662][497]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2022.06.25-15.17.25:662][497]LogInit: FAudioDevice initialized.
+[2022.06.25-15.17.25:662][497]LogAudio: Display: Audio Device (ID: 27) registered with world 'FirstPersonMap'.
+[2022.06.25-15.17.25:671][497]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-15.17.25:674][497]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-17.17.25
+[2022.06.25-15.17.25:674][497]LogWorld: Bringing up level for play took: 0.003119
+[2022.06.25-15.17.25:676][497]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2022.06.25-15.17.25:677][497]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-15.17.25:677][497]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-15.17.25:677][497]PIE: Server logged in
+[2022.06.25-15.17.25:678][497]PIE: Play in editor total start time 0,098 seconds.
+[2022.06.25-15.17.30:574][ 74]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-15.17.35:574][674]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 50
+[2022.06.25-15.17.38:099][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.17.38:099][974]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-15.17.38:099][974]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-15.17.38:100][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.17.38:107][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-15.17.38:110][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-15.17.38:130][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-15.17.38:130][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.06.25-15.17.38:131][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2022.06.25-15.17.38:136][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.06.25-15.17.38:182][976]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2022.06.25-15.17.43:548][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.06.25-15.17.43:637][578]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2018158642 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/L4/I7RD5S8DT7XM287BRET7A4.PackageMetaData in its package
+[2022.06.25-15.17.43:637][578]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2018157641 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/B4/KQXI0EVBXMQNNDAOMOGZFT.PackageMetaData in its package
+[2022.06.25-15.17.43:637][578]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2016666636 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/HA/33U1HRC2ODONTETU2DT3K8.PackageMetaData in its package
+[2022.06.25-15.17.43:637][578]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2016664634 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/MX/7JYTOBA3DBGSOKE2XLUYB6.PackageMetaData in its package
+[2022.06.25-15.17.43:637][578]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2014301630 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/T9/EK2R9SMB1JBW6U1DQSX3V8.PackageMetaData in its package
+[2022.06.25-15.17.43:637][578]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2014300629 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/Z8/D84E4I4S18NSBFK70CIIP3.PackageMetaData in its package
+[2022.06.25-15.17.43:637][578]LogWorldPartition: Warning: Actor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_1979198623 is unreachable without properly detaching object /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/M4/ZBYSWWCC25PJNG4TGMPTTE.PackageMetaData in its package
+[2022.06.25-15.17.43:638][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.06.25-15.17.43:659][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.06.25-15.17.43:680][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2022.06.25-15.17.43:682][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/9J/EXB3X1WUQKLXKN7D3WR0P0
+[2022.06.25-15.17.43:683][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/EXB3X1WUQKLXKN7D3WR0P0E0BC2B594732D3FE81A3799385F3049B.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/9J/EXB3X1WUQKLXKN7D3WR0P0.uasset'
+[2022.06.25-15.17.43:684][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/AO/RIP78PS2I1WQY5IX4DCZFP
+[2022.06.25-15.17.43:684][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/RIP78PS2I1WQY5IX4DCZFP1990CB164440B2CAC3E82D9EDD2391EE.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/AO/RIP78PS2I1WQY5IX4DCZFP.uasset'
+[2022.06.25-15.17.43:686][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/RR/821RMDGIDG4U4RCC6P8EEW
+[2022.06.25-15.17.43:686][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/821RMDGIDG4U4RCC6P8EEW714588EC4845F3B05866DF971787C573.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/RR/821RMDGIDG4U4RCC6P8EEW.uasset'
+[2022.06.25-15.17.43:687][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/7G/T2KZYUA60RPUJ20GLMB7KW
+[2022.06.25-15.17.43:687][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/T2KZYUA60RPUJ20GLMB7KW34C899AB4A7BCECB8B2AB987BEB05743.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/7G/T2KZYUA60RPUJ20GLMB7KW.uasset'
+[2022.06.25-15.17.43:689][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G
+[2022.06.25-15.17.43:689][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/PDQ0AB8RLNMVID876FD49G041C7E234354065893F7F9A5C795A2B1.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/ZU/PDQ0AB8RLNMVID876FD49G.uasset'
+[2022.06.25-15.17.43:690][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/X1/IE2891CN6QCGPIACXNURQS
+[2022.06.25-15.17.43:690][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/IE2891CN6QCGPIACXNURQS632027DE45C729216BB83A8CB1DF9AC2.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/X1/IE2891CN6QCGPIACXNURQS.uasset'
+[2022.06.25-15.17.43:692][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/8Z/VIZN30K245CXHCT88I5HHU
+[2022.06.25-15.17.43:692][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/VIZN30K245CXHCT88I5HHUB38D26BB4CA45D365C36AB89DE4F91F9.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/8Z/VIZN30K245CXHCT88I5HHU.uasset'
+[2022.06.25-15.17.43:693][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/30/99UYPWAAH6GI49SBZ4U0SZ
+[2022.06.25-15.17.43:693][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/99UYPWAAH6GI49SBZ4U0SZ07A9BF9F415D4F333350B9B447DACE87.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/30/99UYPWAAH6GI49SBZ4U0SZ.uasset'
+[2022.06.25-15.17.43:694][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Z1/FULVQWESWRNNQ0OPIDDZSY
+[2022.06.25-15.17.43:694][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FULVQWESWRNNQ0OPIDDZSYA82C59FB424BEFA93FCB03930DFB5291.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/Z1/FULVQWESWRNNQ0OPIDDZSY.uasset'
+[2022.06.25-15.17.43:695][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/Z7/U6J3JX3QS6KEE2IPJ1VG4R
+[2022.06.25-15.17.43:695][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/U6J3JX3QS6KEE2IPJ1VG4R4B362D6A42677ACF4CEF07A53F950AD4.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/Z7/U6J3JX3QS6KEE2IPJ1VG4R.uasset'
+[2022.06.25-15.17.43:696][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/8I/O08YETGSU97E86LAGY4EUA
+[2022.06.25-15.17.43:696][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/O08YETGSU97E86LAGY4EUA9E5F7E98406DB61A71B1BB8B674524AF.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/8I/O08YETGSU97E86LAGY4EUA.uasset'
+[2022.06.25-15.17.43:697][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/7W/404WAWUZ0JWZHJSEEDDT5K
+[2022.06.25-15.17.43:697][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/404WAWUZ0JWZHJSEEDDT5K0343A676447756AEC42B7BAFE2055351.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/7W/404WAWUZ0JWZHJSEEDDT5K.uasset'
+[2022.06.25-15.17.43:698][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/NR/F7PIL1BLP41OUW54M9NQAW
+[2022.06.25-15.17.43:698][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/F7PIL1BLP41OUW54M9NQAW28298C464EF682F47E596A8690DD6953.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/NR/F7PIL1BLP41OUW54M9NQAW.uasset'
+[2022.06.25-15.17.43:699][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/5E/EISFAQBT6Q4THASEABOUO3
+[2022.06.25-15.17.43:699][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/EISFAQBT6Q4THASEABOUO3E773347E4D423FE2A60FBF911FB797AD.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/5E/EISFAQBT6Q4THASEABOUO3.uasset'
+[2022.06.25-15.17.43:700][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/9T/F07U82YXT9BWSX8AUERSMK
+[2022.06.25-15.17.43:700][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/F07U82YXT9BWSX8AUERSMK3FBA5445400CBF26CCDCF586A0947023.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/9T/F07U82YXT9BWSX8AUERSMK.uasset'
+[2022.06.25-15.17.43:701][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/GZ/Z94C52KJQ9CT0TGABFDX48
+[2022.06.25-15.17.43:701][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Z94C52KJQ9CT0TGABFDX4859486ED149C3149E13E393A1024D01B7.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/GZ/Z94C52KJQ9CT0TGABFDX48.uasset'
+[2022.06.25-15.17.43:703][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NE/RZD5KFTKQCDNSM6SZ43B8S
+[2022.06.25-15.17.43:703][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/RZD5KFTKQCDNSM6SZ43B8S994E68524E204F4202CCDE919D62A296.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NE/RZD5KFTKQCDNSM6SZ43B8S.uasset'
+[2022.06.25-15.17.43:704][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HJ/RS64VUPQ3DEEBR2QZNSXKR
+[2022.06.25-15.17.43:704][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/RS64VUPQ3DEEBR2QZNSXKRA7E3F6394FB9FC9E4703A78B9847D0E2.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/HJ/RS64VUPQ3DEEBR2QZNSXKR.uasset'
+[2022.06.25-15.17.43:705][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FG/KLFDJWB2A5VV3H1FXUY8TS
+[2022.06.25-15.17.43:705][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/KLFDJWB2A5VV3H1FXUY8TS776A069049992A0C153AD5B9B227BC02.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/FG/KLFDJWB2A5VV3H1FXUY8TS.uasset'
+[2022.06.25-15.17.43:706][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/U6/5NZ60HFVL6KJ550INZ2Z27
+[2022.06.25-15.17.43:706][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/5NZ60HFVL6KJ550INZ2Z2753A89E904F1D7D6D3575029F816F622C.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/U6/5NZ60HFVL6KJ550INZ2Z27.uasset'
+[2022.06.25-15.17.43:707][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/Z4/N51JKFFENQC811HPP63DJ1
+[2022.06.25-15.17.43:707][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/N51JKFFENQC811HPP63DJ12C1FD43349C12FB6D3CE7BBD4E78B63E.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/Z4/N51JKFFENQC811HPP63DJ1.uasset'
+[2022.06.25-15.17.43:708][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/U9/FX75CBCSJN1Y9J8W0ZJYWB
+[2022.06.25-15.17.43:708][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FX75CBCSJN1Y9J8W0ZJYWB294A51C2462C2BA3CC9B1780BC5D6B03.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/U9/FX75CBCSJN1Y9J8W0ZJYWB.uasset'
+[2022.06.25-15.17.43:709][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/AD/OVUIR3A5ZDV11E6IAFMT6W
+[2022.06.25-15.17.43:709][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/OVUIR3A5ZDV11E6IAFMT6WDB24C7804CFDF28C28172EA844BCFC40.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/AD/OVUIR3A5ZDV11E6IAFMT6W.uasset'
+[2022.06.25-15.17.43:710][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/F7/QPX00CJYQN5FUCX2OEEIRP
+[2022.06.25-15.17.43:710][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/QPX00CJYQN5FUCX2OEEIRPFDA2F7154FA29E2905E118BCC3AA837E.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/F7/QPX00CJYQN5FUCX2OEEIRP.uasset'
+[2022.06.25-15.17.43:711][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/N4/DFV6RRWSUJ4QMTDBZI2UQR
+[2022.06.25-15.17.43:711][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/DFV6RRWSUJ4QMTDBZI2UQRD91FC0AF4C810654CFCE638367B41144.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/N4/DFV6RRWSUJ4QMTDBZI2UQR.uasset'
+[2022.06.25-15.17.43:712][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/Y1/4J91LX8S8TGQEEHKHTFMD6
+[2022.06.25-15.17.43:712][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/4J91LX8S8TGQEEHKHTFMD6BB3E16E34D8FFE1B107E39943C44AC66.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/Y1/4J91LX8S8TGQEEHKHTFMD6.uasset'
+[2022.06.25-15.17.43:713][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/2T/MELAKTVKU39YAJ33PHQKN0
+[2022.06.25-15.17.43:713][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/MELAKTVKU39YAJ33PHQKN0FA51818D4FF52214205779BB4FD7A812.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/2T/MELAKTVKU39YAJ33PHQKN0.uasset'
+[2022.06.25-15.17.43:714][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/PB/JEGKKLSY931II8D5UW1PZD
+[2022.06.25-15.17.43:714][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/JEGKKLSY931II8D5UW1PZD6ADB35C541F9F81526F86EA3AAAF019F.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/PB/JEGKKLSY931II8D5UW1PZD.uasset'
+[2022.06.25-15.17.43:715][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/BS/EOIF8LPJWCOVRTQW2SF89T
+[2022.06.25-15.17.43:715][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/EOIF8LPJWCOVRTQW2SF89T2BB4A7A5460D740CFB4F4B8408CD2FB7.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/BS/EOIF8LPJWCOVRTQW2SF89T.uasset'
+[2022.06.25-15.17.43:717][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/11/SC6C741SPUCBUMQCL4O35L
+[2022.06.25-15.17.43:717][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/SC6C741SPUCBUMQCL4O35LF3F80A2B4CCC2BFA28523F9105ADFF70.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/F/11/SC6C741SPUCBUMQCL4O35L.uasset'
+[2022.06.25-15.17.43:718][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/8T/7UAMUKLZZW5X3FRMETGENQ
+[2022.06.25-15.17.43:718][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/7UAMUKLZZW5X3FRMETGENQ4E46E7174FE499F0946EF79F3AFF1F1A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/8T/7UAMUKLZZW5X3FRMETGENQ.uasset'
+[2022.06.25-15.17.43:719][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NL/G9LGCZ9T514N27SRLR2LGP
+[2022.06.25-15.17.43:719][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/G9LGCZ9T514N27SRLR2LGPFC767A9E44B38AAB1C983490897F5B44.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/NL/G9LGCZ9T514N27SRLR2LGP.uasset'
+[2022.06.25-15.17.43:720][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5S/JU00XPOWGMCAKDROFT49ZE
+[2022.06.25-15.17.43:720][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/JU00XPOWGMCAKDROFT49ZE00AE154045F26BD7B95AB4AF5B346C30.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5S/JU00XPOWGMCAKDROFT49ZE.uasset'
+[2022.06.25-15.17.43:721][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/2N/WCXZ9I38ZMNEL290QBP2JV
+[2022.06.25-15.17.43:721][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/WCXZ9I38ZMNEL290QBP2JV0E83A7924400CA9405CC948774D04E1A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/2N/WCXZ9I38ZMNEL290QBP2JV.uasset'
+[2022.06.25-15.17.43:722][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/2L/WCT8A2D0H33K1EAR3V0CSE
+[2022.06.25-15.17.43:722][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/WCT8A2D0H33K1EAR3V0CSEF449A4F24023BFD8A15F748E53123236.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/2L/WCT8A2D0H33K1EAR3V0CSE.uasset'
+[2022.06.25-15.17.43:723][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/B7/6S6EEJVL6EMV5OCENXLZVI
+[2022.06.25-15.17.43:723][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/6S6EEJVL6EMV5OCENXLZVIBCCA4C254D57879F13BBA2B2F17E40EF.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/B7/6S6EEJVL6EMV5OCENXLZVI.uasset'
+[2022.06.25-15.17.43:724][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/BN/HCA56HUURQQSJ4WUNH7URH
+[2022.06.25-15.17.43:724][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/HCA56HUURQQSJ4WUNH7URH725D02764B64D60D0600E5AF0EA55017.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/BN/HCA56HUURQQSJ4WUNH7URH.uasset'
+[2022.06.25-15.17.43:725][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5O/50FFY88AWAZYKTOY0L6SNS
+[2022.06.25-15.17.43:725][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/50FFY88AWAZYKTOY0L6SNSE9D1580443703D523E9282BBAF2BF77E.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/5O/50FFY88AWAZYKTOY0L6SNS.uasset'
+[2022.06.25-15.17.43:727][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1B/0NK4VXK3B5QEX2NQLJOVB3
+[2022.06.25-15.17.43:727][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/0NK4VXK3B5QEX2NQLJOVB3FD52B4834C9FA1FA97D0018626413821.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/1B/0NK4VXK3B5QEX2NQLJOVB3.uasset'
+[2022.06.25-15.17.43:728][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/DR/EGZTCASUV1V1PT8AMQTPEI
+[2022.06.25-15.17.43:728][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/EGZTCASUV1V1PT8AMQTPEID98AFE4341F553BE5E583A9003174069.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/DR/EGZTCASUV1V1PT8AMQTPEI.uasset'
+[2022.06.25-15.17.43:729][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/FU/V228XMWTRYUJYES9WF3M6T
+[2022.06.25-15.17.43:729][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/V228XMWTRYUJYES9WF3M6T2F36533849D4E7AB7D66728604C39DB0.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/FU/V228XMWTRYUJYES9WF3M6T.uasset'
+[2022.06.25-15.17.43:730][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Z3/Z9OW048CWY1SP30FM1AAVP
+[2022.06.25-15.17.43:730][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Z9OW048CWY1SP30FM1AAVPA8EBF74245ADBFEDB2738CA6C197E54A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/Z3/Z9OW048CWY1SP30FM1AAVP.uasset'
+[2022.06.25-15.17.43:731][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TW/26LFJIO5M5KJVJO54GEC6C
+[2022.06.25-15.17.43:731][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/26LFJIO5M5KJVJO54GEC6CF4663C324ECBDA91BBB286B89BA02453.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/E/TW/26LFJIO5M5KJVJO54GEC6C.uasset'
+[2022.06.25-15.17.43:732][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/TR/KHMUDOBO4SZBIERVPAA7VH
+[2022.06.25-15.17.43:732][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/KHMUDOBO4SZBIERVPAA7VHE8C6972A445A6365237E85A3D0F7DC02.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/TR/KHMUDOBO4SZBIERVPAA7VH.uasset'
+[2022.06.25-15.17.43:733][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/28/8NTZK0WBZ9HD6EW5YZH0HI
+[2022.06.25-15.17.43:733][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/8NTZK0WBZ9HD6EW5YZH0HI2308B6914EF509859DA0E0B4A3C52EF1.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/28/8NTZK0WBZ9HD6EW5YZH0HI.uasset'
+[2022.06.25-15.17.43:734][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/KQ/POJ6JT5L3N2BBO09ADGA4O
+[2022.06.25-15.17.43:734][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/POJ6JT5L3N2BBO09ADGA4OC75487C64B0C2F28A9F179945F1BD6E6.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/KQ/POJ6JT5L3N2BBO09ADGA4O.uasset'
+[2022.06.25-15.17.43:735][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/5F/JR72217PZ5H0EXK5CKTVYB
+[2022.06.25-15.17.43:736][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/JR72217PZ5H0EXK5CKTVYB61E497834CC91D1617619D836A4A9B1C.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/5F/JR72217PZ5H0EXK5CKTVYB.uasset'
+[2022.06.25-15.17.43:737][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/9U/GL0MQ27JNWUHVA9V1KE6QJ
+[2022.06.25-15.17.43:737][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/GL0MQ27JNWUHVA9V1KE6QJ5CAC4E6744361B2B75CA12B8FE4AB135.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/9U/GL0MQ27JNWUHVA9V1KE6QJ.uasset'
+[2022.06.25-15.17.43:738][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/W2/XG81ZD5QGOEDVN93N1NNHL
+[2022.06.25-15.17.43:738][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/XG81ZD5QGOEDVN93N1NNHL2717347B4754182BFD4232B7BE212B04.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/W2/XG81ZD5QGOEDVN93N1NNHL.uasset'
+[2022.06.25-15.17.43:739][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/2P/6JWAFIK5KAPWR9XWRV58CV
+[2022.06.25-15.17.43:739][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/6JWAFIK5KAPWR9XWRV58CV1B23EB26422273AB84925DA8224ABF06.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/9/2P/6JWAFIK5KAPWR9XWRV58CV.uasset'
+[2022.06.25-15.17.43:740][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ET/YLVQN2Q1ZLCCNCZMMYTTS3
+[2022.06.25-15.17.43:740][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/YLVQN2Q1ZLCCNCZMMYTTS328960E304BB797286BE43D949992FC56.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/2/ET/YLVQN2Q1ZLCCNCZMMYTTS3.uasset'
+[2022.06.25-15.17.43:741][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/MK/3D9D3EEV60XBL3PJ492PEB
+[2022.06.25-15.17.43:741][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/3D9D3EEV60XBL3PJ492PEBA3D46DCC4C02A4CF8964F2B42079F52F.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/MK/3D9D3EEV60XBL3PJ492PEB.uasset'
+[2022.06.25-15.17.43:742][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/PG/B21XYSL008US180T69BHVN
+[2022.06.25-15.17.43:742][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/B21XYSL008US180T69BHVND07FD77E43E78B77155C239734B6930F.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/PG/B21XYSL008US180T69BHVN.uasset'
+[2022.06.25-15.17.43:743][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/S4/VN10A5HM829QWMVG0DU7DA
+[2022.06.25-15.17.43:743][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/VN10A5HM829QWMVG0DU7DA60339011479523305BEEAB8DAE70A84D.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/S4/VN10A5HM829QWMVG0DU7DA.uasset'
+[2022.06.25-15.17.43:744][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/Y9/FUK217FKS1276H3G7VD6R2
+[2022.06.25-15.17.43:744][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FUK217FKS1276H3G7VD6R233D5C19042615CC33D89DABB254F3C79.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/Y9/FUK217FKS1276H3G7VD6R2.uasset'
+[2022.06.25-15.17.43:745][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/JC/38K166T9WKVFRG6UB5RL9T
+[2022.06.25-15.17.43:745][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/38K166T9WKVFRG6UB5RL9T94CED9724E3D1A9257CDBEA4CAC2F535.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/B/JC/38K166T9WKVFRG6UB5RL9T.uasset'
+[2022.06.25-15.17.43:746][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/Z1/6EEA0OBCIJEJVUCL4IEPU2
+[2022.06.25-15.17.43:746][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/6EEA0OBCIJEJVUCL4IEPU257B9E7EE4692A7F1D206E883BE61467B.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/Z1/6EEA0OBCIJEJVUCL4IEPU2.uasset'
+[2022.06.25-15.17.43:747][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/18/JTUB9PDVYO6WQAKJGYHXQ6
+[2022.06.25-15.17.43:747][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/JTUB9PDVYO6WQAKJGYHXQ66800D6C044870DCAD11B46BFBE68E354.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/18/JTUB9PDVYO6WQAKJGYHXQ6.uasset'
+[2022.06.25-15.17.43:748][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Q9/NKJMVGG3ZDYNUHB7NH1OMA
+[2022.06.25-15.17.43:748][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/NKJMVGG3ZDYNUHB7NH1OMAC47E262A4DBAB2B17036BCA3CA8609D4.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Q9/NKJMVGG3ZDYNUHB7NH1OMA.uasset'
+[2022.06.25-15.17.43:749][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/XF/8GYQ1QCXS8C6T6LDP1H1KP
+[2022.06.25-15.17.43:749][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/8GYQ1QCXS8C6T6LDP1H1KPAE9A48BA480E3082A9425184D05C17FA.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/7/XF/8GYQ1QCXS8C6T6LDP1H1KP.uasset'
+[2022.06.25-15.17.43:750][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/BY/LDHAI2BZA35Q3HC4SET78Y
+[2022.06.25-15.17.43:750][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/LDHAI2BZA35Q3HC4SET78YC0A7484744B3C827F6C1F6BC8F94E006.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/BY/LDHAI2BZA35Q3HC4SET78Y.uasset'
+[2022.06.25-15.17.43:751][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/B9/NHW7QGE05L38PPWLKX7THO
+[2022.06.25-15.17.43:751][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/NHW7QGE05L38PPWLKX7THO31DF26E84400D6ED2DC0D383A982CEF7.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/6/B9/NHW7QGE05L38PPWLKX7THO.uasset'
+[2022.06.25-15.17.43:752][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/DP/0UYY6TZN5586VAIWNMYZ2I
+[2022.06.25-15.17.43:752][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/0UYY6TZN5586VAIWNMYZ2IDBDC12114C695811972F169B9D3C03FB.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/D/DP/0UYY6TZN5586VAIWNMYZ2I.uasset'
+[2022.06.25-15.17.43:753][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/3J/X6ZQQAYLY96I4XGV2NFV3M
+[2022.06.25-15.17.43:753][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/X6ZQQAYLY96I4XGV2NFV3MF7DFB6EF41D5ABAEA3301C9BBB5B0387.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/C/3J/X6ZQQAYLY96I4XGV2NFV3M.uasset'
+[2022.06.25-15.17.43:755][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/MM/BJ1M2T3IZ60CATSLBTI3C8
+[2022.06.25-15.17.43:755][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/BJ1M2T3IZ60CATSLBTI3C88A8E802F40FE8BD5D5136F8E2CAF1DD6.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/MM/BJ1M2T3IZ60CATSLBTI3C8.uasset'
+[2022.06.25-15.17.43:756][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/UK/8U0LO7D6UAZNQ90YOS3ZNB
+[2022.06.25-15.17.43:756][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/8U0LO7D6UAZNQ90YOS3ZNBFAB9B7AB426D04B97ACBF49851BF45A8.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/UK/8U0LO7D6UAZNQ90YOS3ZNB.uasset'
+[2022.06.25-15.17.43:757][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/6E/QI9VUPWWDFDP4E9B79TRZ2
+[2022.06.25-15.17.43:757][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/QI9VUPWWDFDP4E9B79TRZ27B2B786B4E664CE1B5EE4AA0827B49A7.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/6E/QI9VUPWWDFDP4E9B79TRZ2.uasset'
+[2022.06.25-15.17.43:758][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Q5/BGVFS8CTG7GTTF14URU1OY
+[2022.06.25-15.17.43:758][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/BGVFS8CTG7GTTF14URU1OY8C9C0CDC45992D96DA218CB45648B740.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/Q5/BGVFS8CTG7GTTF14URU1OY.uasset'
+[2022.06.25-15.17.43:759][578]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/SO/4S75D1RSWQKBRARATJ2KXX
+[2022.06.25-15.17.43:759][578]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/4S75D1RSWQKBRARATJ2KXXEA3FB6004AE046FA13E8D7AA817FF659.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/3/SO/4S75D1RSWQKBRARATJ2KXX.uasset'
+[2022.06.25-15.17.43:773][578]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EAB1C01_2051025834
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EA91C01_1327120475
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EA91C01_1075962471
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EA91C01_1336453478
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_2001720423
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EA91C01_1336453477
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1247869845
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1235474844
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1202338843
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1190969842
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1186288841
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1182103840
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1179517839
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1177392838
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1174197837
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1171506836
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2141569659
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2136265658
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2125187657
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2125187656
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2125186655
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2115730654
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2113496653
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2111867652
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2109913651
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2018156640
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2018156639
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2018156638
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2018155637
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2016665635
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2016664633
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2016664632
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2016663631
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2014299628
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2014299627
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2014298626
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2014298625
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1E001D01_1460028858
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_1997739624
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1E001D01_1453717857
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1333838856
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1325185855
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1311498854
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1304281853
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1300552852
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1291780851
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1289201850
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1251273848
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1251272847
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1E001D01_1247870846
+[2022.06.25-15.17.43:773][578]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFF1C01_2103897650
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2096189649
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2096189648
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2096188647
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1963732622
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1962507621
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2077567646
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1955272620
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1955272619
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1955271618
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2068827645
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1953934617
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1953934616
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1953933615
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2068826644
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_2068825643
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1936426614
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1936426613
+[2022.06.25-15.17.43:774][578]LogContentValidation: Display: Validating StaticMeshActor /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_D85ED3561F1EFF1C01_1936425612
+[2022.06.25-15.17.43:793][578]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
