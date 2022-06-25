@@ -3669,3 +3669,1384 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.06.25-14.17.59:691][488]LogContentValidation: Display: Validating Blueprint /Game/Assets/Systemitems/Lights/FlickeringLight.FlickeringLight
 [2022.06.25-14.17.59:691][488]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFC1C01_1650907082
 [2022.06.25-14.17.59:691][488]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFC1C01_1153347081
+[2022.06.25-14.19.27:578][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.06.25-14.20.36:366][285]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Levelassets/Level0Asset/Fluorescent_light.Fluorescent_light
+[2022.06.25-14.20.36:380][285]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.20.36:577][285]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.06.25-14.23.11:107][673]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.06.25-14.23.11:111][673]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.06.25-14.23.11:119][674]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2022.06.25-14.23.13:720][884]LogContentBrowser: Attempting asset rename: NewMaterial -> Glass
+[2022.06.25-14.23.13:722][884]LogContentBrowser: End creating deferred item NewMaterial
+[2022.06.25-14.23.14:934][982]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Glass.Glass
+[2022.06.25-14.23.14:936][982]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: BF9DD69A23F157AE266AE964BC5B0BA957FEE6D8), compiling. 
+[2022.06.25-14.23.14:951][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.23.15:000][982]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 17C6675812A407D0277536EEFAC3EC4985FCDB16), compiling. 
+[2022.06.25-14.23.15:003][982]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 4E4EEE0A0382C647518E98438BD4C74479E63482), compiling. 
+[2022.06.25-14.23.15:017][982]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.23.15:017][982]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.15:017][982]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.23.15:023][982]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Total job queries 1526, among them cache hits 840 (55.05%)
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Tracking 495 distinct input hashes that result in 180 distinct outputs (36.36%)
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: RAM used: 0.92 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.06%
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Shaders Compiled: 391
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Jobs assigned 498, completed 495 (99.40%)
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Average time worker was idle: 54.88 s
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Time job spent in pending queue: average 0.82 s, longest 7.92 s
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Job execution time: average 1.57 s, max 9.62 s
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Job life time (pending + execution): average 2.40 s, max 12.10
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 140.19 s
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Jobs were issued in 469 batches (only local compilation was used), average 1.06 jobs/batch
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Average processing rate: 3.53 jobs/sec
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Effective parallelization: 4.14 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    3 times, average 4.56 sec, max 4.87 sec, min 3.95 sec)
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    3 times, average 4.55 sec, max 4.88 sec, min 4.07 sec)
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 4.28 sec, max 4.69 sec, min 3.53 sec)
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 4.11 sec, max 4.36 sec, min 3.61 sec)
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    3 times, average 3.62 sec, max 3.90 sec, min 3.40 sec)
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.25-14.23.15:539][  5]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 10.66% of total time (compiled   36 times, average 1.72 sec, max 4.24 sec, min 0.50 sec)
+[2022.06.25-14.23.15:540][  5]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.71% of total time (compiled   60 times, average 0.94 sec, max 4.57 sec, min 0.42 sec)
+[2022.06.25-14.23.15:540][  5]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.96% of total time (compiled   74 times, average 0.70 sec, max 1.31 sec, min 0.50 sec)
+[2022.06.25-14.23.15:540][  5]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.94% of total time (compiled   16 times, average 2.16 sec, max 4.77 sec, min 0.76 sec)
+[2022.06.25-14.23.15:540][  5]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.79% of total time (compiled   16 times, average 2.10 sec, max 4.87 sec, min 0.69 sec)
+[2022.06.25-14.23.15:540][  5]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.23.15:949][ 22]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.25-14.23.15:949][ 22]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.15:949][ 22]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.23.25:489][269]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 931016ED9EF35D13516233B5AC54440801261AA5), compiling. 
+[2022.06.25-14.23.25:712][269]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.23.25:712][269]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.25:712][269]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.23.25:893][272]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.25-14.23.25:893][272]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.25:893][272]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.23.27:486][370]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 6E7038B9C2D0B1FDEDF4CD5F4D88C9BF7B49F48A), compiling. 
+[2022.06.25-14.23.27:490][370]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: C2B8B46E5300B247B9077866C963D8A0515F47F1), compiling. 
+[2022.06.25-14.23.27:494][370]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: C083769199E1BF2C3D34D17FD301810D411ADE65), compiling. 
+[2022.06.25-14.23.27:497][370]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.23.27:497][370]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.27:497][370]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.23.28:066][404]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.25-14.23.28:066][404]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.28:066][404]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.23.28:272][418]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.23.28:272][418]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.28:272][418]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.23.37:220][ 20]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: CCA0A1FF424DAEAC5C2E6B91BF128215F34C399D), compiling. 
+[2022.06.25-14.23.37:228][ 20]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.23.37:228][ 20]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.37:228][ 20]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.23.37:285][ 23]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.23.37:285][ 23]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.37:285][ 23]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.23.39:165][146]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 353FCC66672CF852EA3732B5DD58136EA3321B4F), compiling. 
+[2022.06.25-14.23.39:169][146]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: AD71FEE86EC45F331B63F6A36695A52CDBB876F6), compiling. 
+[2022.06.25-14.23.39:172][146]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: E40835D09D5660B56B5A0C6FEDB2113A981C64D4), compiling. 
+[2022.06.25-14.23.39:176][146]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.23.39:176][146]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.39:176][146]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.23.40:030][187]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.23.40:030][187]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.40:030][187]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.23.41:632][274]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.23.41:633][274]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.41:633][274]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.23.47:154][552]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: CB47D7526AF72D9FFC409D01563EAAD1DEE94D57), compiling. 
+[2022.06.25-14.23.47:155][552]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionConstant3Vector_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D6293E7D9D78972B0470E4BC080214340284B113), compiling. 
+[2022.06.25-14.23.47:157][552]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.23.47:157][552]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.47:157][552]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.23.47:184][554]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.23.47:184][554]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.47:184][554]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.23.51:407][828]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 5E44DBD42CA1235F438C0214E9C5D8817A7628C6), compiling. 
+[2022.06.25-14.23.51:409][828]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 170796692439EEC685F94982BE8F2EF1C221E090), compiling. 
+[2022.06.25-14.23.51:410][828]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B83C89B408CFC9A36CFE5F070C34BF021C6F7CD7), compiling. 
+[2022.06.25-14.23.51:417][828]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 04DC702EE37438095F9503CB22E6070D7318E03D), compiling. 
+[2022.06.25-14.23.51:423][828]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.23.51:423][828]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.51:423][828]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.23.51:466][830]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.23.51:466][830]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.23.51:466][830]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.00:113][413]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: B372EB955A11B3AF166FE8115C3D6425AC03DA5B), compiling. 
+[2022.06.25-14.24.00:115][413]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 354F6598AD065BADBA4715B6FB0AC4F8DF32323E), compiling. 
+[2022.06.25-14.24.00:117][413]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.00:117][413]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.00:117][413]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.00:154][416]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.00:154][416]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.00:154][416]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.04:947][614]LogSlate: Window 'Color Picker' being destroyed
+[2022.06.25-14.24.07:126][766]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 598BBBDCC0AFDBC003524FCF08CBA35296960523), compiling. 
+[2022.06.25-14.24.07:128][766]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.07:128][766]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.07:128][766]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.07:155][768]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.07:155][768]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.07:155][768]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.11:298][ 48]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: EE0809140927A90C8D05C0B624390DC834018B13), compiling. 
+[2022.06.25-14.24.11:302][ 48]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: C8D0F4C81C4E827ED0488BDC7F03814C0E0033A8), compiling. 
+[2022.06.25-14.24.11:304][ 48]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.11:304][ 48]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.11:304][ 48]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.11:337][ 51]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.11:337][ 51]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.11:337][ 51]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.14:253][247]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 1B5F79896A7752557260C551F464F08FE0E03742), compiling. 
+[2022.06.25-14.24.14:256][247]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.14:256][247]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.14:256][247]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.15:187][302]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.24.15:187][302]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.15:187][302]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.24.15:619][326]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 1D4658D0AB3BF711635E303287DF6EC014CE4FF4), compiling. 
+[2022.06.25-14.24.15:620][326]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 11230527E367EB2EA4A346E9AD47ECDCC9FB4CE3), compiling. 
+[2022.06.25-14.24.15:623][326]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.15:623][326]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.15:623][326]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.16:518][371]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.24.16:518][371]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.16:518][371]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.24.18:015][452]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.18:015][452]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.18:015][452]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.21:451][680]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: B4D4CF5FB0B8BCDBEF518C00ED9B936EE2625CDD), compiling. 
+[2022.06.25-14.24.21:453][680]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.21:453][680]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.21:453][680]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.21:481][682]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.21:481][682]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.21:481][682]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.23:309][796]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 0F87B8E5B107ED1A0CFBB6A34926BC03A45CC253), compiling. 
+[2022.06.25-14.24.23:317][796]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 4C59D5F6A539EA014ADB2B9A92F42B413B130802), compiling. 
+[2022.06.25-14.24.23:320][796]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.23:320][796]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.23:320][796]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.23:365][798]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.23:365][798]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.23:365][798]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.28:008][108]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 3F74062A8C9616C6D78B1469732BE9BBBEF9F59B), compiling. 
+[2022.06.25-14.24.28:011][108]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.28:011][108]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.28:011][108]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.28:790][153]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.24.28:790][153]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.28:791][153]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.24.30:195][240]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.30:195][240]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.30:195][240]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.32:049][361]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 386FF325EB2023C556B74FF4DF5D0B51C0840512), compiling. 
+[2022.06.25-14.24.32:054][361]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: BA441B8350D90CA8000BB3C374369699798F0AE5), compiling. 
+[2022.06.25-14.24.32:055][361]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.32:055][361]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.32:055][361]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.32:090][364]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.32:090][364]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.32:090][364]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.37:359][726]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: C18FF0A8DED89E6B776EB91DA3E0A837B67A4567), compiling. 
+[2022.06.25-14.24.37:363][726]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 883B98838EF099C752116730AFA6E06EFA2FB1A5), compiling. 
+[2022.06.25-14.24.37:364][726]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.37:364][726]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.37:364][726]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.37:396][729]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.37:396][729]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.37:396][729]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.48:401][423]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 4C7875336A946A2C42D77966A4F4087421C2D6C1), compiling. 
+[2022.06.25-14.24.48:402][423]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.48:402][423]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.48:402][423]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.48:430][425]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.48:430][425]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.48:430][425]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.24.50:605][562]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: E6326D78DED412E7D9BF51755A72945593DFD182), compiling. 
+[2022.06.25-14.24.50:613][562]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 8C5DB71AF1F41D0FFF9F8FE8EFBDCD131B9EDE75), compiling. 
+[2022.06.25-14.24.50:617][562]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.24.50:617][562]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.50:617][562]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.24.50:659][564]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.24.50:659][564]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.24.50:659][564]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.25.00:482][ 98]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 92E81926C1AC4080DF23546E9FF12B23CABE1816), compiling. 
+[2022.06.25-14.25.00:485][ 98]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.00:486][ 98]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.00:486][ 98]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.01:438][154]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.25.01:438][154]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.01:438][154]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.25.03:239][252]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.03:239][252]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.03:239][252]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.25.04:825][354]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 88542A2FFE8E174DC02C663198E6B6554ECB6120), compiling. 
+[2022.06.25-14.25.04:829][354]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 0B4EC3B73E3D5C83F57B90807E26D8C113EFC220), compiling. 
+[2022.06.25-14.25.04:831][354]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.04:831][354]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.04:831][354]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.04:862][357]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.04:863][357]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.04:863][357]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.25.07:566][450]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: EBD8731F2733B184610AD1CABEAB5607FF1A5F58), compiling. 
+[2022.06.25-14.25.07:570][450]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 28656017E99A73338A9511171288BE28C1C894BD), compiling. 
+[2022.06.25-14.25.07:572][450]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.07:572][450]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.07:572][450]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.07:605][453]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.07:606][453]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.07:606][453]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.25.28:551][892]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: D845DE9E793B137794832EFC7F6CC28AD70FF25B), compiling. 
+[2022.06.25-14.25.28:554][892]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.28:554][892]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.28:554][892]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.28:588][894]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.28:588][894]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.28:588][894]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.25.32:421][ 43]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: C8F17A533A0EEBA2DC2FF3D5286325005BA9764F), compiling. 
+[2022.06.25-14.25.32:423][ 43]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.32:423][ 43]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.32:423][ 43]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.32:457][ 45]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.32:457][ 45]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.32:457][ 45]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.25.35:160][160]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 784CE5CC66E924B444F75E7AB73F60AFDD73F166), compiling. 
+[2022.06.25-14.25.35:163][160]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.35:163][160]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.35:163][160]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.35:196][163]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.35:196][163]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.35:196][163]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.25.39:856][333]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 52E10C7C130E25F03F70F722759101C8B668662C), compiling. 
+[2022.06.25-14.25.39:860][333]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.39:860][333]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.39:860][333]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.40:407][361]MaterialEditorStats: Texture samplers: 1/16
+[2022.06.25-14.25.40:407][361]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.40:407][361]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.25.40:917][386]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.25.40:917][386]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.40:917][386]MaterialEditorStats: Shader Count: 3
+[2022.06.25-14.25.42:621][480]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.42:621][480]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.42:621][480]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.25.44:275][584]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 169C40647B99DA50042AACB1EF64B4641451BBDB), compiling. 
+[2022.06.25-14.25.44:277][584]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.44:277][584]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.44:277][584]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.44:306][586]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.44:306][586]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.44:306][586]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.25.45:178][639]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 99456DE74CCCA833A39944F0C00857713A9D5FB6), compiling. 
+[2022.06.25-14.25.45:180][639]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.45:180][639]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.45:180][639]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.45:208][641]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.45:208][641]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.45:208][641]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.25.50:455][998]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 0477726AE552E3DF503D3E07ABEA22B73A8557E0), compiling. 
+[2022.06.25-14.25.50:460][998]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 6725A7AE7FAED29B1F6A439A870524A482BE536A), compiling. 
+[2022.06.25-14.25.50:461][998]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.50:461][998]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.50:461][998]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.50:494][  1]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.50:494][  1]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.50:494][  1]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.25.53:033][168]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 9224DD6B60133B39EFE2B4DA2794DDACD7003FE2), compiling. 
+[2022.06.25-14.25.53:037][168]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.53:037][168]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.53:037][168]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.53:941][214]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.25.53:941][214]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.53:941][214]MaterialEditorStats: Shader Count: 3
+[2022.06.25-14.25.55:357][298]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.55:357][298]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.55:357][298]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.25.59:640][526]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 8AA8C88332F0BB3819195BE1C6E873C3E2A148CF), compiling. 
+[2022.06.25-14.25.59:645][526]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 07E1562C1DE04B96F13D0C077DD6FBD4FB31C468), compiling. 
+[2022.06.25-14.25.59:646][526]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.25.59:646][526]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.59:646][526]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.25.59:680][529]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.25.59:680][529]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.25.59:680][529]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.26.01:694][662]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 93F356678B16A8B4EB561FB94B0FF67893570FA3), compiling. 
+[2022.06.25-14.26.01:697][662]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.26.01:697][662]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.01:697][662]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.26.02:199][684]MaterialEditorStats: Texture samplers: 1/16
+[2022.06.25-14.26.02:199][684]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.02:199][684]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.26.02:707][705]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.26.02:707][705]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.02:707][705]MaterialEditorStats: Shader Count: 3
+[2022.06.25-14.26.04:179][792]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.26.04:179][792]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.04:179][792]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.26.11:767][303]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: D7DF68262EDDF3B08449A9A3B4AF29D68E2C8F8D), compiling. 
+[2022.06.25-14.26.11:776][303]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: DA9FC2E607E883F6BC9A2DA264DA5338CF0341ED), compiling. 
+[2022.06.25-14.26.11:779][303]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.26.11:779][303]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.11:779][303]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.26.12:129][320]MaterialEditorStats: Texture samplers: 1/16
+[2022.06.25-14.26.12:129][320]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.12:129][320]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.26.12:630][347]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.26.12:631][347]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.12:631][347]MaterialEditorStats: Shader Count: 3
+[2022.06.25-14.26.14:039][435]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.26.14:039][435]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.14:039][435]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.26.20:238][868]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: A421F6385F88BBA1A25037BAD5EE00A907380C87), compiling. 
+[2022.06.25-14.26.20:239][868]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AC464A1EDD5286B90A989260964C9A1DAFE01F96), compiling. 
+[2022.06.25-14.26.20:241][868]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.26.20:241][868]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.20:241][868]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Total job queries 1759, among them cache hits 1041 (59.18%)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Tracking 530 distinct input hashes that result in 194 distinct outputs (36.60%)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: RAM used: 0.95 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.06%
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Shaders Compiled: 399
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Jobs assigned 530, completed 530 (100.00%)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Average time worker was idle: 52.68 s
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 7.92 s
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Job execution time: average 1.54 s, max 9.62 s
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Job life time (pending + execution): average 2.32 s, max 12.10
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 163.36 s
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Jobs were issued in 501 batches (only local compilation was used), average 1.06 jobs/batch
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Average processing rate: 3.24 jobs/sec
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Effective parallelization: 3.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    3 times, average 4.56 sec, max 4.87 sec, min 3.95 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    3 times, average 4.55 sec, max 4.88 sec, min 4.07 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 4.28 sec, max 4.69 sec, min 3.53 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 4.11 sec, max 4.36 sec, min 3.61 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    3 times, average 3.62 sec, max 3.90 sec, min 3.40 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 13.44% of total time (compiled   46 times, average 1.80 sec, max 4.24 sec, min 0.48 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.89% of total time (compiled   87 times, average 0.70 sec, max 1.31 sec, min 0.49 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.39% of total time (compiled   63 times, average 0.92 sec, max 4.57 sec, min 0.41 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.60% of total time (compiled   16 times, average 2.16 sec, max 4.77 sec, min 0.76 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.46% of total time (compiled   16 times, average 2.10 sec, max 4.87 sec, min 0.69 sec)
+[2022.06.25-14.26.20:264][869]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.26.20:277][870]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.26.20:277][870]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.26.20:277][870]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.26.24:712][169]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 238C0BB51AEF9872C6488917062EABFA6EF156F4), compiling. 
+[2022.06.25-14.26.24:712][169]LogMaterial: Warning: [AssetLog] /Engine/Transient.Glass (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.26.24:713][169]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DF0A6073115671146DA3893A0359E54370A1C5B8), compiling. 
+[2022.06.25-14.26.24:716][169]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2022.06.25-14.26.29:057][399]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: F478F70671D0682801F80A55A5D3376F4BF3F8E6), compiling. 
+[2022.06.25-14.26.29:057][399]LogMaterial: Warning: [AssetLog] /Engine/Transient.Glass (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.26.29:058][399]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E2D840FD9644CD522F891D90953870A3B2E8C231), compiling. 
+[2022.06.25-14.26.29:059][399]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 43FE154209C49F8A23601B9744521F64CF58AB00), compiling. 
+[2022.06.25-14.26.29:066][399]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 649A2336DB12A1D470090EBEE9C7E7D6E7387981), compiling. 
+[2022.06.25-14.26.29:067][399]LogMaterial: Warning: [AssetLog] /Engine/Transient.Glass (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.06.25-14.26.29:067][399]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: A98DC4971C5B55FA65DCDBD098D8871DC8BDAB90), compiling. 
+[2022.06.25-14.26.29:075][399]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2022.06.25-14.31.34:322][ 42]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_normal': Can't find file.
+[2022.06.25-14.31.34:322][ 42]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_normal': Can't find file.
+[2022.06.25-14.31.34:322][ 42]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_normal.dirty_glass_43_92_normal'
+[2022.06.25-14.31.38:716][342]LogMaterialEditor: Saving and Compiling material Glass
+[2022.06.25-14.31.40:195][342]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2022.06.25-14.31.40:565][342]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 17860870D12BFC87C25E6FA7E5E8636C204993B7), compiling. 
+[2022.06.25-14.31.40:566][342]LogMaterial: Warning: [AssetLog] /Engine/Transient.Glass (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.06.25-14.31.40:580][342]LogMaterial: Display: Missing cached shadermap for Glass in PCD3D_SM5, Default, SM5 (DDC key hash: D3D8309ECA4EEF6EBA8864A8F6E56302A66C73E0), compiling. 
+[2022.06.25-14.31.40:580][342]LogMaterial: Warning: [AssetLog] /Game/Materials/Glass.Glass (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.06.25-14.31.40:607][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.06.25-14.31.40:651][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.06.25-14.31.40:699][342]LogSavePackage: Moving output files for package: /Game/Materials/Glass
+[2022.06.25-14.31.40:699][342]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Glass92D468A74FE6C1BCC559D5A1E08943A4.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/Glass.uasset'
+[2022.06.25-14.31.40:707][342]AssetCheck: New page: Asset Save: Glass
+[2022.06.25-14.31.40:707][342]LogContentValidation: Display: Validating Material /Game/Materials/Glass.Glass
+[2022.06.25-14.31.54:489][211]LogViewport: Scene viewport resized to 822x556, mode Windowed.
+[2022.06.25-14.31.55:030][211]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.06.25-14.31.59:094][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_diffuse': Can't find file.
+[2022.06.25-14.31.59:094][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_diffuse'
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_emissive': Can't find file.
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_emissive'
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_height': Can't find file.
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_height'
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_inverted_IOR': Can't find file.
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_inverted_IOR'
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_metallic': Can't find file.
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_metallic'
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_normal': Can't find file.
+[2022.06.25-14.31.59:095][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_normal'
+[2022.06.25-14.31.59:096][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_opacity': Can't find file.
+[2022.06.25-14.31.59:096][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_opacity'
+[2022.06.25-14.31.59:096][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_reflection': Can't find file.
+[2022.06.25-14.31.59:096][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_reflection'
+[2022.06.25-14.31.59:096][531]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to load '/Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_roughness': Can't find file.
+[2022.06.25-14.31.59:096][531]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_roughness'
+[2022.06.25-14.31.59:102][531]LogMaterial: Display: Missing cached shadermap for dirty_glass_43_92 in PCD3D_SM5, Default, SM5 (DDC key hash: 1ABC9CDD469402A90E21ACC2618C487BA8EBBA49), compiling. 
+[2022.06.25-14.31.59:102][531]LogMaterial: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.32.01:216][693]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2022.06.25-14.32.04:436][903]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/dirty_glass_43_92.dirty_glass_43_92
+[2022.06.25-14.32.04:438][903]LogMaterial: Display: Missing cached shadermap for Preview:dirty_glass_43_92 in PCD3D_SM5, Default, SM5 (DDC key hash: 405F80BD9928B4F6F07C545F85DF6467CC84D3A4), compiling. 
+[2022.06.25-14.32.04:439][903]LogMaterial: Warning: [AssetLog] /Engine/Transient.dirty_glass_43_92 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.32.04:440][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.32.04:492][903]LogMaterial: Display: Missing cached shadermap for Preview:dirty_glass_43_92 in PCD3D_SM5, Default, SM5 (DDC key hash: FFC31044FF00B17AD0E9130706C1DB8CE9EC60BD), compiling. 
+[2022.06.25-14.32.04:492][903]LogMaterial: Warning: [AssetLog] /Engine/Transient.dirty_glass_43_92 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.32.04:494][903]LogMaterial: Display: Missing cached shadermap for Preview:dirty_glass_43_92 in PCD3D_SM5, Default, SM5 (DDC key hash: 6F2EC99EAA9C5752C9F9CCDA593F7BBD411A3E0C), compiling. 
+[2022.06.25-14.32.04:495][903]LogMaterial: Warning: [AssetLog] /Engine/Transient.dirty_glass_43_92 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.32.04:495][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: FB034AEDB3C6DDC6FD79683BBE6CC60BB266E0D8), compiling. 
+[2022.06.25-14.32.04:496][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: E4D699997E555E99285F1578D448D7C96AC2D7D3), compiling. 
+[2022.06.25-14.32.04:497][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: F13CBF66D8F404B17012C9D9A3CD8C542153DAE0), compiling. 
+[2022.06.25-14.32.04:497][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 405DC4FA75CD7126DAADE2894627228BD05C9F84), compiling. 
+[2022.06.25-14.32.04:498][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 43ABC92C3ED97981E9E8ACB2023FBDA08C479CC5), compiling. 
+[2022.06.25-14.32.04:498][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 58C7FBC4D184E0264D4F11002E664BBA57812CFC), compiling. 
+[2022.06.25-14.32.04:499][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0BEFB01BCC2BD866D89FCA0ADD0B025B4002AD56), compiling. 
+[2022.06.25-14.32.04:499][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 3396BA465A9AD4469C2C551D3101F249C385B496), compiling. 
+[2022.06.25-14.32.04:500][903]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 040178D28A23EAB93E4A0178FB2921F5309F1899), compiling. 
+[2022.06.25-14.32.04:515][903]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2022.06.25-14.32.04:522][903]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.06.25-14.32.05:315][950]LogViewport: Scene viewport resized to 218x276, mode Windowed.
+[2022.06.25-14.32.05:940][950]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.06.25-14.32.27:919][438]LogViewport: Scene viewport resized to 218x276, mode Windowed.
+[2022.06.25-14.32.38:655][138]LogViewport: Scene viewport resized to 218x276, mode Windowed.
+[2022.06.25-14.32.38:876][148]LogViewport: Scene viewport resized to 217x287, mode Windowed.
+[2022.06.25-14.32.38:945][150]LogViewport: Scene viewport resized to 160x200, mode Windowed.
+[2022.06.25-14.32.38:978][151]LogViewport: Scene viewport resized to 151x187, mode Windowed.
+[2022.06.25-14.32.39:909][203]LogViewport: Scene viewport resized to 152x192, mode Windowed.
+[2022.06.25-14.32.41:774][291]LogSlate: Window 'Glass' being destroyed
+[2022.06.25-14.32.41:791][291]LogSlate: Window 'Glass' being destroyed
+[2022.06.25-14.32.41:798][291]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.32.41:798][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.32.43:148][367]LogSlate: Window 'dirty_glass_43_92' being destroyed
+[2022.06.25-14.32.43:155][367]LogSlate: Window 'dirty_glass_43_92' being destroyed
+[2022.06.25-14.32.43:194][367]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.32.43:194][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.32.43:253][367]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.32.43:253][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.32.43:271][367]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.32.43:271][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.32.45:118][564]AssetReimport: New page: Outstanding source content changes 18:32:45
+[2022.06.25-14.32.45:119][564]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/cgaxis_dirty_glass_43_92_UE/dirty_glass_43_92.jpg)
+[2022.06.25-14.32.45:149][565]LogTexture: Display: Building textures: /Game/Materials/cgaxis_dirty_glass_43_92_UE/dirty_glass_43_92.dirty_glass_43_92 (TFO_AutoDXT, 1200X1200 X1X1) (Required Memory Estimate: 27.46582 MB), EncodeSpeed: Fast
+[2022.06.25-14.32.45:227][565]LogSavePackage: Moving output files for package: /Game/Materials/cgaxis_dirty_glass_43_92_UE/dirty_glass_43_92
+[2022.06.25-14.32.45:227][565]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/dirty_glass_43_9263C15AA341DD5CA9223C669E1B94F982.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/cgaxis_dirty_glass_43_92_UE/dirty_glass_43_92.uasset'
+[2022.06.25-14.32.45:291][566]AssetCheck: New page: Asset Save: dirty_glass_43_92
+[2022.06.25-14.32.45:291][566]LogContentValidation: Display: Validating Texture2D /Game/Materials/cgaxis_dirty_glass_43_92_UE/dirty_glass_43_92.dirty_glass_43_92
+[2022.06.25-14.32.48:269][862]AssetReimport: Importing new asset /Game/Materials/cgaxis_dirty_glass_43_92_UE/dirty_glass_43_92.
+[2022.06.25-14.32.52:618][323]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/dirty_glass_43_92.dirty_glass_43_92
+[2022.06.25-14.32.52:620][323]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_5 in PCD3D_SM5, Default, SM5 (DDC key hash: EFB97211AE058DA2840CB2E9898586504285A799), compiling. 
+[2022.06.25-14.32.52:621][323]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_5 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.32.52:622][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.32.52:694][323]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_5 in PCD3D_SM5, Default, SM5 (DDC key hash: ABC99DE1E6D69D1FE82D84D80366C7933BC4498B), compiling. 
+[2022.06.25-14.32.52:694][323]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_5 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.32.52:697][323]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_5 in PCD3D_SM5, Default, SM5 (DDC key hash: 84E0BDFE7D7ADE561E7E996FD683D1D84DB3A8D2), compiling. 
+[2022.06.25-14.32.52:698][323]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_5 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.32.52:698][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 0676F529E26EC9D02A57BE4ED7FEBF7900FAD73E), compiling. 
+[2022.06.25-14.32.52:699][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 5F0C621E0DF60D33659C5EEE71A5A97F4A1A163C), compiling. 
+[2022.06.25-14.32.52:699][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_8 in PCD3D_SM5, Default, SM5 (DDC key hash: 1CA476FA71B86CDA03057D6C40EABCC2ED58F9B3), compiling. 
+[2022.06.25-14.32.52:700][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_7 in PCD3D_SM5, Default, SM5 (DDC key hash: E894DD991FBD1CFA175AF8BB4DFE90D155F86BA2), compiling. 
+[2022.06.25-14.32.52:701][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 3129DBB6FA87721F40A6E9A65C755EC7A033AEB3), compiling. 
+[2022.06.25-14.32.52:701][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_4 in PCD3D_SM5, Default, SM5 (DDC key hash: 247E11AF0505A2FF093315C9657065B8682C7111), compiling. 
+[2022.06.25-14.32.52:702][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 20B2478BC4EABAA07BF00E9EB4554E623B15D613), compiling. 
+[2022.06.25-14.32.52:702][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_5 in PCD3D_SM5, Default, SM5 (DDC key hash: BB89DD763C56DECD596FD9E6CBD5A741D7EF0992), compiling. 
+[2022.06.25-14.32.52:703][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_6 in PCD3D_SM5, Default, SM5 (DDC key hash: EB3B369FD0B5CE178A83A33F109CA37E6283C6C4), compiling. 
+[2022.06.25-14.32.52:714][323]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2022.06.25-14.32.52:719][323]LogViewport: Scene viewport resized to 218x276, mode Windowed.
+[2022.06.25-14.33.08:402][632]LogSlate: Window 'dirty_glass_43_92' being destroyed
+[2022.06.25-14.33.08:414][632]LogSlate: Window 'dirty_glass_43_92' being destroyed
+[2022.06.25-14.33.08:420][632]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.33.08:420][632]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.33.11:019][875]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.33.11:019][875]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.33.11:501][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.06.25-14.33.12:399][923]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.25-14.33.12:447][923]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Materials/dirty_glass_43_92.dirty_glass_43_92
+	Asset Type: Material
+[2022.06.25-14.33.12:656][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.06.25-14.33.12:673][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.06.25-14.33.12:689][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.06.25-14.33.13:726][ 28]LogLinker: Warning: [AssetLog] C:\Users\guvas\Documents\Unreal Projects\Backrooms_Game_Repository\Backrooms_Game\Backrooms_Game\Content\Materials\dirty_glass_43_92_Inst.uasset: Failed to load '/Game/Glass_and_Crystals_Materials/dirty_glass_43_92': Can't find file.
+[2022.06.25-14.33.13:726][ 28]LogLinker: Warning: VerifyImport: Failed to load package for import object 'Package /Game/Glass_and_Crystals_Materials/dirty_glass_43_92'
+[2022.06.25-14.33.14:894][143]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.33.14:894][143]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.33.16:124][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.06.25-14.33.16:826][275]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.25-14.33.16:846][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.06.25-14.33.16:862][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.06.25-14.33.16:877][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.06.25-14.33.20:023][593]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Glass.Glass
+[2022.06.25-14.33.20:025][593]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 41F3DBF0150F4ED802B8FEFF43989B3AAE149DBB), compiling. 
+[2022.06.25-14.33.20:026][593]LogMaterial: Warning: [AssetLog] /Engine/Transient.Glass (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.06.25-14.33.20:027][593]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.33.20:096][593]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 2A4DDCFBAC0F28976990628C26D390F867ACA858), compiling. 
+[2022.06.25-14.33.20:097][593]LogMaterial: Warning: [AssetLog] /Engine/Transient.Glass (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.06.25-14.33.20:100][593]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: F05E449D56EA8F98CC03E7C308F371868424A06E), compiling. 
+[2022.06.25-14.33.20:100][593]LogMaterial: Warning: [AssetLog] /Engine/Transient.Glass (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.06.25-14.33.20:101][593]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 4599F65B80D6C042CA29174EF1CBFB791980E2D6), compiling. 
+[2022.06.25-14.33.20:102][593]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 797C8201FC8C362D7141E4679BB140660F5FEB5C), compiling. 
+[2022.06.25-14.33.20:114][593]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2022.06.25-14.33.20:120][593]LogViewport: Scene viewport resized to 218x276, mode Windowed.
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Total job queries 1765, among them cache hits 1047 (59.32%)
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Tracking 530 distinct input hashes that result in 194 distinct outputs (36.60%)
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: RAM used: 0.95 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.06%
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Shaders Compiled: 399
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Jobs assigned 530, completed 530 (100.00%)
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Average time worker was idle: 52.68 s
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Time job spent in pending queue: average 0.78 s, longest 7.92 s
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Job execution time: average 1.54 s, max 9.62 s
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Job life time (pending + execution): average 2.32 s, max 12.10
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 163.36 s
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Jobs were issued in 501 batches (only local compilation was used), average 1.06 jobs/batch
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Average processing rate: 3.24 jobs/sec
+[2022.06.25-14.33.20:267][602]LogShaderCompilers: Display: Effective parallelization: 3.77 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    3 times, average 4.56 sec, max 4.87 sec, min 3.95 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    3 times, average 4.55 sec, max 4.88 sec, min 4.07 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    3 times, average 4.28 sec, max 4.69 sec, min 3.53 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    3 times, average 4.11 sec, max 4.36 sec, min 3.61 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    3 times, average 3.62 sec, max 3.90 sec, min 3.40 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 13.44% of total time (compiled   46 times, average 1.80 sec, max 4.24 sec, min 0.48 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.89% of total time (compiled   87 times, average 0.70 sec, max 1.31 sec, min 0.49 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.39% of total time (compiled   63 times, average 0.92 sec, max 4.57 sec, min 0.41 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.60% of total time (compiled   16 times, average 2.16 sec, max 4.77 sec, min 0.76 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.46% of total time (compiled   16 times, average 2.10 sec, max 4.87 sec, min 0.69 sec)
+[2022.06.25-14.33.20:268][602]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.33.22:494][790]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 50834E7EB277C2E99171D5BB48363BEEE5AC4099), compiling. 
+[2022.06.25-14.33.22:496][790]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.33.22:496][790]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.33.22:496][790]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.33.22:527][792]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.33.22:527][792]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.33.22:527][792]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.33.23:726][893]LogMaterialEditor: Saving and Compiling material Glass
+[2022.06.25-14.33.24:069][893]LogMaterial: Display: Missing cached shadermap for Preview:Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 5723449549E84BA9414E3A118C752404330FECBF), compiling. 
+[2022.06.25-14.33.24:084][893]LogMaterial: Display: Missing cached shadermap for Glass in PCD3D_SM5, Default, SM5 (DDC key hash: AA8D3F2CC50E0A2C9B5F967CF1C3AA755112614C), compiling. 
+[2022.06.25-14.33.24:102][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.06.25-14.33.24:766][893]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2022.06.25-14.33.26:883][893]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.06.25-14.33.33:550][893]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.005009s (6.686096s overbudget)
+[2022.06.25-14.33.33:595][893]LogSavePackage: Moving output files for package: /Game/Materials/Glass
+[2022.06.25-14.33.33:595][893]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/GlassE9A86C80409F57D046BEF58261DF08FB.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/Glass.uasset'
+[2022.06.25-14.33.33:603][893]AssetCheck: New page: Asset Save: Glass
+[2022.06.25-14.33.33:603][893]LogContentValidation: Display: Validating Material /Game/Materials/Glass.Glass
+[2022.06.25-14.33.33:605][893]MaterialEditorStats: Base pass shader: 779 instructions
+[2022.06.25-14.33.33:605][893]MaterialEditorStats: Base pass vertex shader: 273 instructions
+[2022.06.25-14.33.33:605][893]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.33.33:605][893]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.33.33:605][893]MaterialEditorStats: Shader Count: 35
+[2022.06.25-14.33.34:060][909]LogSlate: Window 'Glass' being destroyed
+[2022.06.25-14.33.34:072][909]LogSlate: Window 'Glass' being destroyed
+[2022.06.25-14.33.34:077][909]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.33.34:078][909]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.33.38:570][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Materials/dirty_glass_43_92': Can't find file.
+[2022.06.25-14.33.38:570][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Materials/dirty_glass_43_92': Can't find file.
+[2022.06.25-14.33.38:570][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Materials/dirty_glass_43_92.dirty_glass_43_92'
+[2022.06.25-14.33.38:570][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Materials/dirty_glass_43_92_Inst': Can't find file.
+[2022.06.25-14.33.38:570][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Materials/dirty_glass_43_92_Inst': Can't find file.
+[2022.06.25-14.33.38:570][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Materials/dirty_glass_43_92_Inst.dirty_glass_43_92_Inst'
+[2022.06.25-14.33.38:570][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_diffuse': Can't find file.
+[2022.06.25-14.33.38:570][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_diffuse': Can't find file.
+[2022.06.25-14.33.38:570][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_diffuse.dirty_glass_43_92_diffuse'
+[2022.06.25-14.33.38:571][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_emissive': Can't find file.
+[2022.06.25-14.33.38:571][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_emissive': Can't find file.
+[2022.06.25-14.33.38:571][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_emissive.dirty_glass_43_92_emissive'
+[2022.06.25-14.33.38:571][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_glossiness': Can't find file.
+[2022.06.25-14.33.38:571][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_glossiness': Can't find file.
+[2022.06.25-14.33.38:571][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_glossiness.dirty_glass_43_92_glossiness'
+[2022.06.25-14.33.38:571][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_height': Can't find file.
+[2022.06.25-14.33.38:571][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_height': Can't find file.
+[2022.06.25-14.33.38:571][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_height.dirty_glass_43_92_height'
+[2022.06.25-14.33.38:571][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_inverted_IOR': Can't find file.
+[2022.06.25-14.33.38:571][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_inverted_IOR': Can't find file.
+[2022.06.25-14.33.38:571][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_inverted_IOR.dirty_glass_43_92_inverted_IOR'
+[2022.06.25-14.33.38:572][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_metallic': Can't find file.
+[2022.06.25-14.33.38:572][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_metallic': Can't find file.
+[2022.06.25-14.33.38:572][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_metallic.dirty_glass_43_92_metallic'
+[2022.06.25-14.33.38:572][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_opacity': Can't find file.
+[2022.06.25-14.33.38:572][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_opacity': Can't find file.
+[2022.06.25-14.33.38:572][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_opacity.dirty_glass_43_92_opacity'
+[2022.06.25-14.33.38:572][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_reflection': Can't find file.
+[2022.06.25-14.33.38:572][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_reflection': Can't find file.
+[2022.06.25-14.33.38:572][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_reflection.dirty_glass_43_92_reflection'
+[2022.06.25-14.33.38:572][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_refraction': Can't find file.
+[2022.06.25-14.33.38:573][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_refraction': Can't find file.
+[2022.06.25-14.33.38:573][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_refraction.dirty_glass_43_92_refraction'
+[2022.06.25-14.33.38:573][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_refraction_glossiness': Can't find file.
+[2022.06.25-14.33.38:573][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_refraction_glossiness': Can't find file.
+[2022.06.25-14.33.38:573][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_refraction_glossiness.dirty_glass_43_92_refraction_glossiness'
+[2022.06.25-14.33.38:573][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_roughness': Can't find file.
+[2022.06.25-14.33.38:573][384]LogLinker: Warning: Failed to load '/Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_roughness': Can't find file.
+[2022.06.25-14.33.38:573][384]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Materials/cgaxis_dirty_glass_43_92_UE/Content/Glass_and_Crystals_Textures/dirty_glass_43_92/dirty_glass_43_92_roughness.dirty_glass_43_92_roughness'
+[2022.06.25-14.33.39:677][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.06.25-14.33.39:681][456]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.020
+[2022.06.25-14.33.39:681][456]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Levelassets/Level0Asset/Fluorescent_light] ([1] browsable assets)...
+[2022.06.25-14.33.39:687][456]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Levelassets/Level0Asset/Fluorescent_light.Fluorescent_light]
+[2022.06.25-14.33.39:687][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Levelassets/Level0Asset/Fluorescent_light]
+[2022.06.25-14.33.39:691][456]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Assets/Levelassets/Level0Asset/Fluorescent_light_Auto5
+[2022.06.25-14.33.39:691][456]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Fluorescent_light_Auto59210E5F94B10381B6D68D5BF83FE3FD6.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/Assets/Levelassets/Level0Asset/Fluorescent_light_Auto5.uasset'
+[2022.06.25-14.33.39:692][456]LogFileHelpers: Auto-saving content packages took 0.011
+[2022.06.25-14.33.51:755][650]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.33.51:755][650]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.33.52:986][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.06.25-14.33.53:829][778]LogSlate: Window 'Delete Assets' being destroyed
+[2022.06.25-14.33.53:852][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.06.25-14.33.53:867][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.06.25-14.33.53:886][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2022.06.25-14.34.44:055][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.06.25-14.34.44:085][ 40]LogSavePackage: Moving output files for package: /Game/Assets/Levelassets/Level0Asset/Fluorescent_light
+[2022.06.25-14.34.44:086][ 40]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Fluorescent_lightBB3B10854CFD496022030EBDB6C27260.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Assets/Levelassets/Level0Asset/Fluorescent_light.uasset'
+[2022.06.25-14.34.44:093][ 40]AssetCheck: New page: Asset Save: Fluorescent_light
+[2022.06.25-14.34.44:093][ 40]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Levelassets/Level0Asset/Fluorescent_light.Fluorescent_light
+[2022.06.25-14.35.06:196][114]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Assets/Levelassets/Level0Asset/Fluorescent_light.Fluorescent_light
+[2022.06.25-14.35.06:223][114]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.35.06:412][114]LogViewport: Scene viewport resized to 822x556, mode Windowed.
+[2022.06.25-14.35.19:569][986]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.06.25-14.35.29:146][784]LogViewport: Scene viewport resized to 822x556, mode Windowed.
+[2022.06.25-14.35.32:137][942]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Glass.Glass
+[2022.06.25-14.35.32:140][942]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 6520BCC6EE278D238A17FD37E47419BA135AD31B), compiling. 
+[2022.06.25-14.35.32:161][942]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.35.32:200][942]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: C822DE76CA036DB0BCBD49538327757361069839), compiling. 
+[2022.06.25-14.35.32:204][942]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 13174D6E9193AE6090DEB5E7A22CB766DFFAF0B2), compiling. 
+[2022.06.25-14.35.32:206][942]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 6EC26BE61A9B6B3AC9EC1DA3D1BBB0CDA6D9242C), compiling. 
+[2022.06.25-14.35.32:217][942]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.35.32:217][942]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.32:217][942]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.35.32:223][942]LogViewport: Scene viewport resized to 218x276, mode Windowed.
+[2022.06.25-14.35.32:824][972]MaterialEditorStats: Texture samplers: 1/16
+[2022.06.25-14.35.32:824][972]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.32:824][972]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.35.33:905][992]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.35.33:906][992]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.33:906][992]MaterialEditorStats: Shader Count: 3
+[2022.06.25-14.35.34:521][ 30]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.35.34:521][ 30]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.34:521][ 30]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.35.34:992][ 58]LogViewport: Scene viewport resized to 819x579, mode Windowed.
+[2022.06.25-14.35.35:055][ 60]LogViewport: Scene viewport resized to 595x393, mode Windowed.
+[2022.06.25-14.35.35:093][ 61]LogViewport: Scene viewport resized to 577x378, mode Windowed.
+[2022.06.25-14.35.35:575][ 91]LogViewport: Scene viewport resized to 580x389, mode Windowed.
+[2022.06.25-14.35.47:778][906]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 02E513851C4C1EDFCFA3403B592F94F93E502CB5), compiling. 
+[2022.06.25-14.35.47:782][906]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: A489CE26E099D1C55DA9F7588DE1CC9D16580F41), compiling. 
+[2022.06.25-14.35.47:784][906]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.35.47:784][906]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.47:784][906]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.35.47:819][909]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.35.47:819][909]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.47:819][909]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.35.50:735][ 88]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 2351771252D736E1CE2B096BF1DD457F93A15194), compiling. 
+[2022.06.25-14.35.50:739][ 88]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: AB1AA398CC500A4366CA7FB43DC5661F0C09FA2A), compiling. 
+[2022.06.25-14.35.50:741][ 88]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.35.50:741][ 88]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.50:741][ 88]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.35.50:776][ 91]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.35.50:776][ 91]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.50:776][ 91]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.35.53:000][220]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 1D093AA10FB5F95F8090DD61587208E4314C571A), compiling. 
+[2022.06.25-14.35.53:005][220]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 3688B7106DEB4B188C445EC7200816A073D20455), compiling. 
+[2022.06.25-14.35.53:007][220]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.35.53:007][220]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.53:007][220]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.35.53:029][222]MaterialEditorStats: Texture samplers: 1/16
+[2022.06.25-14.35.53:029][222]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.53:029][222]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.35.53:042][223]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.35.53:042][223]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.53:042][223]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.35.54:281][299]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: DF2254E1EA3B73D94FE003B1D0C51204316CF415), compiling. 
+[2022.06.25-14.35.54:286][299]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 9038CD443E316D7042F0165CC4BA40B9215171FC), compiling. 
+[2022.06.25-14.35.54:288][299]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.35.54:288][299]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.54:288][299]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.35.54:321][302]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.35.54:321][302]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.54:321][302]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.35.55:170][356]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 05B8E48B9C7AD18CCF8900869AA866DB5A4B426C), compiling. 
+[2022.06.25-14.35.55:175][356]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 3ED98B3E8C8430158B8242A6BC3E76E5D998AC9A), compiling. 
+[2022.06.25-14.35.55:177][356]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.35.55:177][356]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.55:177][356]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.35.55:212][359]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.35.55:212][359]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.35.55:212][359]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.36.08:622][240]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: ACDA027BEE3113B658E1B93768DD2CDE6C0DC714), compiling. 
+[2022.06.25-14.36.08:627][240]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 211C983EDCE60313AEA279CBECA0C4AE726B9347), compiling. 
+[2022.06.25-14.36.08:629][240]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.36.08:629][240]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.36.08:629][240]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.36.08:651][242]MaterialEditorStats: Texture samplers: 1/16
+[2022.06.25-14.36.08:651][242]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.36.08:651][242]MaterialEditorStats: Shader Count: 2
+[2022.06.25-14.36.08:664][243]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.36.08:664][243]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.36.08:664][243]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.36.18:710][908]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 78CDF57D99BCE21384266C415764DF8874827771), compiling. 
+[2022.06.25-14.36.18:715][908]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 29672B2E09B3C747F30DD67695B481E23DDFA363), compiling. 
+[2022.06.25-14.36.18:719][908]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.36.18:719][908]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.36.18:719][908]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.36.18:741][910]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.36.18:741][910]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.36.18:741][910]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.36.33:374][762]LogMaterialEditor: Saving and Compiling material Glass
+[2022.06.25-14.36.33:726][762]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_6 in PCD3D_SM5, Default, SM5 (DDC key hash: 9CB1C2E81F0355BA07AE251F244A20BDFD61A410), compiling. 
+[2022.06.25-14.36.33:740][762]LogMaterial: Display: Missing cached shadermap for Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 08A8286EB06F30324F71B6E0E765516BB9F7FD43), compiling. 
+[2022.06.25-14.36.33:764][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Total job queries 1941, among them cache hits 1162 (59.87%)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Tracking 565 distinct input hashes that result in 215 distinct outputs (38.05%)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: RAM used: 1.07 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.07%
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Shaders Compiled: 427
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Jobs assigned 565, completed 565 (100.00%)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Average time worker was idle: 73.14 s
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Time job spent in pending queue: average 0.84 s, longest 7.92 s
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Job execution time: average 1.57 s, max 9.62 s
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Job life time (pending + execution): average 2.40 s, max 12.10
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 174.83 s
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Jobs were issued in 536 batches (only local compilation was used), average 1.05 jobs/batch
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Average processing rate: 3.23 jobs/sec
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Effective parallelization: 3.89 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    4 times, average 4.57 sec, max 4.88 sec, min 4.07 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    4 times, average 4.55 sec, max 4.87 sec, min 3.95 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    4 times, average 4.24 sec, max 4.69 sec, min 3.53 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 4.00 sec, max 4.36 sec, min 3.61 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    4 times, average 3.59 sec, max 3.90 sec, min 3.40 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 12.44% of total time (compiled   47 times, average 1.80 sec, max 4.24 sec, min 0.48 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.13% of total time (compiled   64 times, average 0.97 sec, max 4.57 sec, min 0.41 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.07% of total time (compiled   88 times, average 0.70 sec, max 1.31 sec, min 0.49 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.76% of total time (compiled   17 times, average 2.30 sec, max 4.77 sec, min 0.76 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.60% of total time (compiled   17 times, average 2.24 sec, max 4.87 sec, min 0.69 sec)
+[2022.06.25-14.36.33:901][762]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.36.33:917][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2022.06.25-14.36.34:041][762]LogSavePackage: Moving output files for package: /Game/Materials/Glass
+[2022.06.25-14.36.34:041][762]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Glass89621F42488E70A1C4185EB15D5B55A7.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/Glass.uasset'
+[2022.06.25-14.36.34:049][762]AssetCheck: New page: Asset Save: Glass
+[2022.06.25-14.36.34:049][762]LogContentValidation: Display: Validating Material /Game/Materials/Glass.Glass
+[2022.06.25-14.36.34:050][762]MaterialEditorStats: Base pass shader: 779 instructions
+[2022.06.25-14.36.34:050][762]MaterialEditorStats: Base pass vertex shader: 273 instructions
+[2022.06.25-14.36.34:050][762]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.36.34:050][762]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.36.34:050][762]MaterialEditorStats: Shader Count: 35
+[2022.06.25-14.37.18:259][285]LogMaterialEditor: Saving and Compiling material Glass
+[2022.06.25-14.37.18:297][285]LogSavePackage: Moving output files for package: /Game/Materials/Glass
+[2022.06.25-14.37.18:297][285]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Glass66C9C1E4460B74D1E68C26BD611C608D.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/Glass.uasset'
+[2022.06.25-14.37.18:305][285]AssetCheck: New page: Asset Save: Glass
+[2022.06.25-14.37.18:305][285]LogContentValidation: Display: Validating Material /Game/Materials/Glass.Glass
+[2022.06.25-14.37.19:200][343]LogSlate: Window 'Glass' being destroyed
+[2022.06.25-14.37.19:215][343]LogSlate: Window 'Glass' being destroyed
+[2022.06.25-14.37.19:244][343]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.37.19:244][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.37.21:444][500]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.37.21:444][500]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.37.22:100][552]LogContentBrowser: Deferred new asset file creation: Glass_Inst
+[2022.06.25-14.37.22:110][552]LogContentBrowser: Creating deferred item: Glass_Inst
+[2022.06.25-14.37.22:119][553]LogContentBrowser: Renaming the item being created (Deferred Item: Glass_Inst).
+[2022.06.25-14.37.30:285][232]LogContentBrowser: Attempting asset rename: Glass_Inst -> Glass_Rough
+[2022.06.25-14.37.30:286][232]LogContentBrowser: End creating deferred item Glass_Inst
+[2022.06.25-14.37.32:565][409]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Materials/Glass_Rough.Glass_Rough
+[2022.06.25-14.37.32:567][409]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.37.32:657][409]LogViewport: Scene viewport resized to 473x389, mode Windowed.
+[2022.06.25-14.37.45:688][385]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Glass.Glass
+[2022.06.25-14.37.45:691][385]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: F0E9160F2202D277274F65DE7CBE01BD58033578), compiling. 
+[2022.06.25-14.37.45:712][385]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.37.45:751][385]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: B2F0A6CEF51529A60A3239CC3BDCAA586C5CCD0C), compiling. 
+[2022.06.25-14.37.45:755][385]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 12A506104BAD66948210062FC08A5F8F9EE60041), compiling. 
+[2022.06.25-14.37.45:757][385]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 701D5B482B64ED6508AD1E62332D42261F44822A), compiling. 
+[2022.06.25-14.37.45:769][385]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.37.45:769][385]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.37.45:769][385]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.37.45:775][385]LogViewport: Scene viewport resized to 152x192, mode Windowed.
+[2022.06.25-14.37.46:383][415]MaterialEditorStats: Texture samplers: 1/16
+[2022.06.25-14.37.46:383][415]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.37.46:383][415]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.37.46:879][441]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.37.46:879][441]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.37.46:879][441]MaterialEditorStats: Shader Count: 3
+[2022.06.25-14.37.48:282][529]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.37.48:282][529]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.37.48:282][529]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.37.59:710][901]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 13998C2D61E60FB142762F787B6E890DC938F3EB), compiling. 
+[2022.06.25-14.37.59:712][901]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 9E690CDB018540FEFE4B69F5CE664DE7D34BD523), compiling. 
+[2022.06.25-14.37.59:713][901]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.37.59:713][901]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.37.59:713][901]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.37.59:746][903]MaterialEditorStats: Texture samplers: 4/16
+[2022.06.25-14.37.59:746][903]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.06.25-14.37.59:746][903]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.38.05:873][308]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: F9CB609DCCBA954C0901D93DA20A2D6646105E81), compiling. 
+[2022.06.25-14.38.05:874][308]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_7 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.38.05:875][308]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: DB2BAD38C6FA22788F2C5A7F13421940473778B0), compiling. 
+[2022.06.25-14.38.05:877][308]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2022.06.25-14.38.08:696][500]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: F887F8FFFC2FE02C6D84C8EB43E21A84550BDF2B), compiling. 
+[2022.06.25-14.38.08:696][500]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_7 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.06.25-14.38.08:697][500]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0FA0F2380B53B86A81B77887CD6938D9445932E6), compiling. 
+[2022.06.25-14.38.08:699][500]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 080CE7C4DB03F5C8F05A88A8E52AD485C33E0A7E), compiling. 
+[2022.06.25-14.38.08:706][500]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 51F1C36A93153B1445F8F6938A9A68A93F5FD2AC), compiling. 
+[2022.06.25-14.38.08:707][500]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_7 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.06.25-14.38.08:707][500]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1251E67C78F9EC94F40DAB4AD8DA85BB396EBF05), compiling. 
+[2022.06.25-14.38.08:716][500]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2022.06.25-14.38.18:741][102]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.06.25-14.39.04:881][247]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 5B6BD8709410B98B1DEC212A9C4965310DAB6581), compiling. 
+[2022.06.25-14.39.04:883][247]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 53E8503E12B7CAF8C322A83F3DF1627A38DEE955), compiling. 
+[2022.06.25-14.39.04:888][247]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 4242E81D5F39CBDCAC49364AC4F578E1D7F4D42A), compiling. 
+[2022.06.25-14.39.04:891][247]MaterialEditorStats: Texture samplers: 0/16
+[2022.06.25-14.39.04:891][247]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.06.25-14.39.04:891][247]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.06.25-14.39.04:891][247]MaterialEditorStats: Shader Count: 0
+[2022.06.25-14.39.05:436][271]MaterialEditorStats: Texture samplers: 2/16
+[2022.06.25-14.39.05:436][271]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.06.25-14.39.05:436][271]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.06.25-14.39.05:436][271]MaterialEditorStats: Shader Count: 1
+[2022.06.25-14.39.06:119][299]MaterialEditorStats: Texture samplers: 3/16
+[2022.06.25-14.39.06:119][299]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.06.25-14.39.06:119][299]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.06.25-14.39.06:119][299]MaterialEditorStats: Shader Count: 3
+[2022.06.25-14.39.07:511][385]MaterialEditorStats: Texture samplers: 5/16
+[2022.06.25-14.39.07:511][385]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.06.25-14.39.07:511][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.06.25-14.39.07:511][385]MaterialEditorStats: Shader Count: 4
+[2022.06.25-14.39.10:009][548]LogMaterialEditor: Saving and Compiling material Glass
+[2022.06.25-14.39.10:359][548]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 7735E03FA7986966E37211E168BA72A69FF2326B), compiling. 
+[2022.06.25-14.39.10:374][548]LogMaterial: Display: Missing cached shadermap for Glass in PCD3D_SM5, Default, SM5 (DDC key hash: ED547D56A712431084D49F0CEA0E79E1CBDC8D86), compiling. 
+[2022.06.25-14.39.10:465][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.06.25-14.39.11:166][548]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.06.25-14.39.13:287][548]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.06.25-14.39.21:516][548]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001001s (8.248496s overbudget)
+[2022.06.25-14.39.21:561][548]LogSavePackage: Moving output files for package: /Game/Materials/Glass
+[2022.06.25-14.39.21:561][548]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Glass087F0524447415F7EA86459473A400D5.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/Glass.uasset'
+[2022.06.25-14.39.21:576][548]AssetCheck: New page: Asset Save: Glass
+[2022.06.25-14.39.21:576][548]LogContentValidation: Display: Validating Material /Game/Materials/Glass.Glass
+[2022.06.25-14.39.21:577][548]MaterialEditorStats: Base pass shader: 785 instructions
+[2022.06.25-14.39.21:577][548]MaterialEditorStats: Base pass vertex shader: 277 instructions
+[2022.06.25-14.39.21:577][548]MaterialEditorStats: Texture samplers: 5/16
+[2022.06.25-14.39.21:577][548]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.06.25-14.39.21:577][548]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.06.25-14.39.21:577][548]MaterialEditorStats: Shader Count: 35
+[2022.06.25-14.39.22:930][553]LogViewport: Scene viewport resized to 1146x902, mode Windowed.
+[2022.06.25-14.39.23:810][619]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.06.25-14.39.57:227][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.06.25-14.39.57:248][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.06.25-14.39.57:250][921]LogSavePackage: Moving output files for package: /Game/Materials/Glass_Rough
+[2022.06.25-14.39.57:250][921]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Glass_Rough5D0395E7401D0CB3884BE683E4709A6A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/Glass_Rough.uasset'
+[2022.06.25-14.39.57:258][921]AssetCheck: New page: Asset Save: Glass_Rough
+[2022.06.25-14.39.57:258][921]LogContentValidation: Display: Validating MaterialInstanceConstant /Game/Materials/Glass_Rough.Glass_Rough
+[2022.06.25-14.40.11:812][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.06.25-14.40.11:847][ 31]LogSavePackage: Moving output files for package: /Game/Assets/Levelassets/Level0Asset/Fluorescent_light
+[2022.06.25-14.40.11:848][ 31]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Fluorescent_light49F4872749D65BC9E82797A585C39130.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Assets/Levelassets/Level0Asset/Fluorescent_light.uasset'
+[2022.06.25-14.40.11:856][ 31]AssetCheck: New page: Asset Save: Fluorescent_light
+[2022.06.25-14.40.11:856][ 31]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Levelassets/Level0Asset/Fluorescent_light.Fluorescent_light
+[2022.06.25-14.40.14:901][269]LogSavePackage: Moving output files for package: /Game/Assets/Levelassets/Level0Asset/Fluorescent_light
+[2022.06.25-14.40.14:901][269]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Fluorescent_light9D675FCE4E7D430325F524908704CC67.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Assets/Levelassets/Level0Asset/Fluorescent_light.uasset'
+[2022.06.25-14.40.14:908][269]AssetCheck: New page: Asset Save: Fluorescent_light
+[2022.06.25-14.40.14:908][269]LogContentValidation: Display: Validating StaticMesh /Game/Assets/Levelassets/Level0Asset/Fluorescent_light.Fluorescent_light
+[2022.06.25-14.40.19:645][681]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-14.40.19:650][681]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-14.40.19:650][681]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-14.40.19:650][681]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-14.40.19:650][681]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-14.40.19:650][681]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-14.40.19:651][681]LogWorldPartition: Display: GetPartitionedActors took 39 us
+[2022.06.25-14.40.19:651][681]LogWorldPartition: Display: GenerateStreaming took 337 us
+[2022.06.25-14.40.19:651][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-14.40.19:651][681]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 18:40:19)
+[2022.06.25-14.40.19:651][681]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-14.40.19:656][681]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-14.40.19:656][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005182s)
+[2022.06.25-14.40.19:656][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005224s)
+[2022.06.25-14.40.19:656][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.40.19:657][681]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-14.40.19:657][681]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-14.40.19:657][681]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-14.40.19:658][681]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-14.40.19:658][681]LogPlayLevel: PIE: World Init took: (0.001963s)
+[2022.06.25-14.40.19:674][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.06.25-14.40.19:674][681]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.06.25-14.40.19:674][681]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-14.40.19:674][681]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-14.40.19:674][681]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-14.40.19:674][681]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-14.40.19:674][681]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-14.40.19:674][681]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-14.40.19:674][681]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-14.40.19:674][681]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-14.40.19:675][681]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-14.40.19:675][681]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-14.40.19:675][681]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-14.40.19:676][681]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-14.40.19:686][681]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-14.40.19:686][681]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-14.40.19:686][681]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-14.40.19:687][681]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-14.40.19:687][681]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.06.25-14.40.19:687][681]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.06.25-14.40.19:688][681]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.06.25-14.40.19:688][681]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.06.25-14.40.19:688][681]LogInit: FAudioDevice initialized.
+[2022.06.25-14.40.19:688][681]LogAudio: Display: Audio Device (ID: 14) registered with world 'FirstPersonMap'.
+[2022.06.25-14.40.19:695][681]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-14.40.19:698][681]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-16.40.19
+[2022.06.25-14.40.19:698][681]LogWorld: Bringing up level for play took: 0.002159
+[2022.06.25-14.40.19:699][681]LogOnline: OSS: Created online subsystem instance for: :Context_45
+[2022.06.25-14.40.19:700][681]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-14.40.19:700][681]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-14.40.19:701][681]PIE: Server logged in
+[2022.06.25-14.40.19:701][681]PIE: Play in editor total start time 0,052 seconds.
+[2022.06.25-14.40.24:637][264]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-14.40.29:637][864]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 50
+[2022.06.25-14.40.34:637][464]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 25
+[2022.06.25-14.40.37:204][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-14.40.37:204][768]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-14.40.37:205][768]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.40.37:205][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.40.37:214][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-14.40.37:216][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.40.37:233][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-14.40.37:233][768]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.06.25-14.40.37:234][768]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.06.25-14.40.37:238][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.06.25-14.40.37:276][770]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2022.06.25-14.40.50:328][960]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.06.25-14.44.03:416][370]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Lautsprecher (3- High Definition Audio Device), InstanceID=1
+[2022.06.25-14.44.03:416][370]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.44.03:746][370]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{665d1d6c-a373-490e-9a47-bf9388458031}, Name=Lautsprecher (3- High Definition Audio Device)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=17.51
+[2022.06.25-14.44.03:746][370]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.44.03:750][371]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.44.10:504][391]LogAudioMixer: Warning: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Line (2- AG06/AG03), InstanceID=1
+[2022.06.25-14.44.10:504][391]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.44.10:838][391]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{1879eacb-e519-47ef-af07-2d2e1bc6998e}, Name=Line (2- AG06/AG03)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=10.27
+[2022.06.25-14.44.10:839][391]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.44.10:843][392]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.46.56:873][884]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.06.25-14.46.57:212][885]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.46.57:547][885]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{1879eacb-e519-47ef-af07-2d2e1bc6998e}, Name=Line (2- AG06/AG03)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=14.51
+[2022.06.25-14.46.57:547][885]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.46.57:551][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.47.20:160][953]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.06.25-14.47.20:160][953]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.47.20:494][953]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{1879eacb-e519-47ef-af07-2d2e1bc6998e}, Name=Line (2- AG06/AG03)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=13.79
+[2022.06.25-14.47.20:494][953]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.47.20:499][954]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.47.41:425][ 16]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.06.25-14.47.41:425][ 16]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.47.41:760][ 16]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{1879eacb-e519-47ef-af07-2d2e1bc6998e}, Name=Line (2- AG06/AG03)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=14.94
+[2022.06.25-14.47.41:760][ 16]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.47.41:764][ 17]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.47.57:965][ 65]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2022.06.25-14.47.57:965][ 65]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.47.58:302][ 65]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{1879eacb-e519-47ef-af07-2d2e1bc6998e}, Name=Line (2- AG06/AG03)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=13.92
+[2022.06.25-14.47.58:302][ 65]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.47.58:306][ 66]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.48.11:472][105]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.06.25-14.48.11:473][105]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.48.11:804][105]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{1879eacb-e519-47ef-af07-2d2e1bc6998e}, Name=Line (2- AG06/AG03)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=14.31
+[2022.06.25-14.48.11:804][105]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.48.11:808][106]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.48.23:964][142]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2022.06.25-14.48.23:964][142]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.48.24:300][142]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{1879eacb-e519-47ef-af07-2d2e1bc6998e}, Name=Line (2- AG06/AG03)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=14.06
+[2022.06.25-14.48.24:300][142]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.48.24:305][143]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.48.35:798][182]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2022.06.25-14.48.35:798][182]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=6688
+[2022.06.25-14.48.35:815][183]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=44100, DeviceID={0.0.0.00000000}.{1879eacb-e519-47ef-af07-2d2e1bc6998e}, Name=Line (2- AG06/AG03)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=14.97
+[2022.06.25-14.48.35:815][183]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2022.06.25-14.48.35:824][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2022.06.25-14.48.37:721][342]AssetReimport: New page: Outstanding source content changes 18:48:37
+[2022.06.25-14.48.37:722][342]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_06.wav)
+[2022.06.25-14.48.37:757][343]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_05.wav)
+[2022.06.25-14.48.37:768][343]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_04.wav)
+[2022.06.25-14.48.37:807][344]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_03.wav)
+[2022.06.25-14.48.37:821][344]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_02.wav)
+[2022.06.25-14.48.37:862][345]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01.wav)
+[2022.06.25-14.48.37:875][345]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_07.wav)
+[2022.06.25-14.48.38:002][346]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_06
+[2022.06.25-14.48.38:002][346]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_06C5701C70482E7BC6943DBB93D6D65EB6.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_06.uasset'
+[2022.06.25-14.48.38:004][346]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_05
+[2022.06.25-14.48.38:004][346]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_05500FF3DE44235222C0AA6682D794595A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_05.uasset'
+[2022.06.25-14.48.38:006][346]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_04
+[2022.06.25-14.48.38:006][346]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_04CAA76E8543BB2BE501F4A281BC674B5C.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_04.uasset'
+[2022.06.25-14.48.38:009][346]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_03
+[2022.06.25-14.48.38:009][346]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_03E165FA6849E292EE6D4F978D3E2D25EC.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_03.uasset'
+[2022.06.25-14.48.38:011][346]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_02
+[2022.06.25-14.48.38:011][346]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_02C4CF85C14D031DE2132354A4B591704A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_02.uasset'
+[2022.06.25-14.48.38:013][346]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01
+[2022.06.25-14.48.38:013][346]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_01D145BE684BB7BBA7FAD7F7B13F354B55.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01.uasset'
+[2022.06.25-14.48.38:015][346]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_07
+[2022.06.25-14.48.38:015][346]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_07A70A06F04D009660AAB883AA430EBB73.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_07.uasset'
+[2022.06.25-14.48.38:091][347]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.25-14.48.38:091][347]LogContentValidation: Display: Validating SoundWave /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_07.Light_Flicker_07
+[2022.06.25-14.48.38:091][347]LogContentValidation: Display: Validating SoundWave /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01.Light_Flicker_01
+[2022.06.25-14.48.38:091][347]LogContentValidation: Display: Validating SoundWave /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_02.Light_Flicker_02
+[2022.06.25-14.48.38:091][347]LogContentValidation: Display: Validating SoundWave /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_03.Light_Flicker_03
+[2022.06.25-14.48.38:091][347]LogContentValidation: Display: Validating SoundWave /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_04.Light_Flicker_04
+[2022.06.25-14.48.38:091][347]LogContentValidation: Display: Validating SoundWave /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_05.Light_Flicker_05
+[2022.06.25-14.48.38:091][347]LogContentValidation: Display: Validating SoundWave /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_06.Light_Flicker_06
+[2022.06.25-14.48.41:343][577]AssetReimport: Importing new asset /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_06.
+[2022.06.25-14.48.41:343][577]AssetReimport: Importing new asset /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_05.
+[2022.06.25-14.48.41:343][577]AssetReimport: Importing new asset /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_04.
+[2022.06.25-14.48.41:343][577]AssetReimport: Importing new asset /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_03.
+[2022.06.25-14.48.41:343][577]AssetReimport: Importing new asset /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_02.
+[2022.06.25-14.48.41:343][577]AssetReimport: Importing new asset /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01.
+[2022.06.25-14.48.41:344][577]AssetReimport: Importing new asset /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_07.
+[2022.06.25-14.49.10:296][  2]LogSlate: Window 'Message' being destroyed
+[2022.06.25-14.49.10:301][  2]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/Materials/Glass.Glass
+(Selecting 'No' will cause all changes to be lost!)
+[2022.06.25-14.49.10:663][  2]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_7 in PCD3D_SM5, Default, SM5 (DDC key hash: 4A633DA630F75664F3FD6F95EBA2954AF0FD2867), compiling. 
+[2022.06.25-14.49.10:678][  2]LogMaterial: Display: Missing cached shadermap for Glass in PCD3D_SM5, Default, SM5 (DDC key hash: 15DC83FEFAB6E2C150A4335E12BF3F03F306DA7B), compiling. 
+[2022.06.25-14.49.10:771][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Total job queries 2087, among them cache hits 1237 (59.27%)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Tracking 610 distinct input hashes that result in 236 distinct outputs (38.69%)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: RAM used: 1.21 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.07%
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Shaders Compiled: 455
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Jobs assigned 610, completed 610 (100.00%)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Average time worker was idle: 71.25 s
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Time job spent in pending queue: average 0.91 s, longest 7.92 s
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Job execution time: average 1.60 s, max 9.62 s
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Job life time (pending + execution): average 2.51 s, max 12.10
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 191.00 s
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Jobs were issued in 581 batches (only local compilation was used), average 1.05 jobs/batch
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Average processing rate: 3.19 jobs/sec
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Effective parallelization: 4.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display:             TBasePassPSFSelfShadowedVolumetricLightmapPolicy (compiled    5 times, average 4.65 sec, max 4.98 sec, min 4.07 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display:     TBasePassPSFSelfShadowedVolumetricLightmapPolicySkylight (compiled    5 times, average 4.62 sec, max 4.87 sec, min 3.95 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    5 times, average 4.37 sec, max 4.90 sec, min 3.53 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: TBasePassPSFSelfShadowedCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 4.18 sec, max 4.92 sec, min 3.61 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    5 times, average 3.73 sec, max 4.27 sec, min 3.40 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 12.26% of total time (compiled   50 times, average 1.87 sec, max 4.64 sec, min 0.48 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.79% of total time (compiled   66 times, average 1.02 sec, max 4.57 sec, min 0.41 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.54% of total time (compiled   92 times, average 0.71 sec, max 1.31 sec, min 0.49 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 5.77% of total time (compiled   18 times, average 2.45 sec, max 4.87 sec, min 0.76 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.60% of total time (compiled   18 times, average 2.38 sec, max 4.87 sec, min 0.69 sec)
+[2022.06.25-14.49.10:907][  2]LogShaderCompilers: Display: ================================================
+[2022.06.25-14.49.10:931][  2]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2022.06.25-14.49.10:951][  2]LogSlate: Window 'Glass' being destroyed
+[2022.06.25-14.49.10:954][  2]LogSlate: Window 'Glass' being destroyed
+[2022.06.25-14.49.10:976][  2]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.49.10:976][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.49.10:999][  2]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.49.11:000][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.49.11:023][  2]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.49.11:023][  2]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.49.20:427][662]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Assets/Systemitems/Lights/FlickeringLight.FlickeringLight
+[2022.06.25-14.49.20:428][662]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.50.59:872][ 39]LogWindowsTextInputMethodSystem: Activated input method: Englisch (Vereinigte Staaten) - (Keyboard).
+[2022.06.25-14.50.59:872][ 39]LogWindowsTextInputMethodSystem: Activated input method: Englisch (Vereinigte Staaten) - (Keyboard).
+[2022.06.25-14.51.03:293][383]LogWindowsTextInputMethodSystem: Activated input method: Deutsch (Deutschland) - (Keyboard).
+[2022.06.25-14.51.03:293][383]LogWindowsTextInputMethodSystem: Activated input method: Deutsch (Deutschland) - (Keyboard).
+[2022.06.25-14.51.33:812][342]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.06.25-14.51.33:814][342]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.027
+[2022.06.25-14.51.33:814][342]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Glass] ([1] browsable assets)...
+[2022.06.25-14.51.33:896][342]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Glass.Glass]
+[2022.06.25-14.51.33:896][342]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Glass]
+[2022.06.25-14.51.33:897][342]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/Glass_Auto6
+[2022.06.25-14.51.33:898][342]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Glass_Auto6C988085B4B90AD6EF7697691CEC39C9D.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/Materials/Glass_Auto6.uasset'
+[2022.06.25-14.51.33:898][342]LogFileHelpers: Auto-saving content packages took 0.084
+[2022.06.25-14.55.41:040][352]BlueprintLog: New page: Compile FlickeringLight
+[2022.06.25-14.55.41:080][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2022.06.25-14.55.41:632][400]LogSavePackage: Moving output files for package: /Game/Assets/Systemitems/Lights/FlickeringLight
+[2022.06.25-14.55.41:632][400]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FlickeringLight4E0C95EB4371FE04AC19B783CDF15E89.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Assets/Systemitems/Lights/FlickeringLight.uasset'
+[2022.06.25-14.55.41:641][400]AssetCheck: New page: Asset Save: FlickeringLight
+[2022.06.25-14.55.41:641][400]LogContentValidation: Display: Validating Blueprint /Game/Assets/Systemitems/Lights/FlickeringLight.FlickeringLight
+[2022.06.25-14.55.47:048][670]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.55.47:048][670]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.06.25-14.55.49:251][886]LogContentBrowser: Deferred new asset file creation: Light_Flicker_01_Cue
+[2022.06.25-14.55.49:257][886]LogContentBrowser: Creating deferred item: Light_Flicker_01_Cue
+[2022.06.25-14.55.49:265][887]LogContentBrowser: Renaming the item being created (Deferred Item: Light_Flicker_01_Cue).
+[2022.06.25-14.55.50:709][ 60]LogContentBrowser: Attempting asset rename: Light_Flicker_01_Cue -> Light_Flicker_01_Cue
+[2022.06.25-14.55.50:710][ 60]LogContentBrowser: End creating deferred item Light_Flicker_01_Cue
+[2022.06.25-14.55.52:230][234]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue
+[2022.06.25-14.56.16:815][722]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_07]
+[2022.06.25-14.56.45:375][688]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue was zero and has changed. Consider manually Re-saving the asset
+[2022.06.25-14.57.44:990][105]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue
+[2022.06.25-14.57.44:990][105]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_01_Cue1148126449BDD304A57F39847CCCA245.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.uasset'
+[2022.06.25-14.57.44:999][105]AssetCheck: New page: Asset Save: Light_Flicker_01_Cue
+[2022.06.25-14.57.44:999][105]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue
+[2022.06.25-14.57.49:571][358]LogSavePackage: Moving output files for package: /Game/Assets/Systemitems/Lights/FlickeringLight
+[2022.06.25-14.57.49:571][358]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FlickeringLight5CE24AA24241C062D0E51A96F5B7AFDD.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Assets/Systemitems/Lights/FlickeringLight.uasset'
+[2022.06.25-14.57.49:579][358]AssetCheck: New page: Asset Save: FlickeringLight
+[2022.06.25-14.57.49:579][358]LogContentValidation: Display: Validating Blueprint /Game/Assets/Systemitems/Lights/FlickeringLight.FlickeringLight
+[2022.06.25-14.58.01:944][ 56]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue
+[2022.06.25-14.58.01:944][ 56]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue
+[2022.06.25-14.58.01:944][ 56]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_0
+[2022.06.25-14.58.01:944][ 56]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_0
+[2022.06.25-14.58.02:305][ 95]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue
+[2022.06.25-14.58.02:305][ 95]LogActorFactory: Actor Factory attempting to spawn SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue
+[2022.06.25-14.58.02:306][ 95]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_UAID_D85ED3561F1EFF1C01_1426309611
+[2022.06.25-14.58.02:306][ 95]LogActorFactory: Actor Factory spawned SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue as actor: AmbientSound /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_UAID_D85ED3561F1EFF1C01_1426309611
+[2022.06.25-14.58.27:135][872]Cmd: DELETE
+[2022.06.25-14.58.27:135][872]Cmd: ACTOR DELETE
+[2022.06.25-14.58.27:137][872]LogEditorActor: Deleted Actor: AmbientSound
+[2022.06.25-14.58.27:158][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2022.06.25-14.58.27:161][872]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2022.06.25-14.58.44:032][275]LogSavePackage: Moving output files for package: /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue
+[2022.06.25-14.58.44:032][275]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/Light_Flicker_01_Cue7A958149403AE4A0C7606298961C6E73.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.uasset'
+[2022.06.25-14.58.44:041][275]AssetCheck: New page: Asset Save: Light_Flicker_01_Cue
+[2022.06.25-14.58.44:041][275]LogContentValidation: Display: Validating SoundCue /Game/Sounds/Soundeffects/Light_Flicker_effects/Light_Flicker_01_Cue.Light_Flicker_01_Cue
+[2022.06.25-14.59.22:184][994]BlueprintLog: New page: Compile FlickeringLight
+[2022.06.25-14.59.22:220][994]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.06.25-14.59.24:309][222]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-14.59.24:314][222]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-14.59.24:315][222]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-14.59.24:315][222]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-14.59.24:315][222]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-14.59.24:315][222]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-14.59.24:315][222]LogWorldPartition: Display: GetPartitionedActors took 60 us
+[2022.06.25-14.59.24:315][222]LogWorldPartition: Display: GenerateStreaming took 495 us
+[2022.06.25-14.59.24:315][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-14.59.24:315][222]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 18:59:24)
+[2022.06.25-14.59.24:349][222]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-14.59.24:354][222]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-14.59.24:354][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004922s)
+[2022.06.25-14.59.24:354][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004991s)
+[2022.06.25-14.59.24:354][222]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.59.24:354][222]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-14.59.24:354][222]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-14.59.24:354][222]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-14.59.24:356][222]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-14.59.24:356][222]LogPlayLevel: PIE: World Init took: (0.001899s)
+[2022.06.25-14.59.24:375][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.06.25-14.59.24:376][222]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.06.25-14.59.24:376][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-14.59.24:376][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-14.59.24:376][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-14.59.24:376][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-14.59.24:376][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-14.59.24:376][222]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-14.59.24:376][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-14.59.24:376][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-14.59.24:377][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-14.59.24:377][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-14.59.24:377][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-14.59.24:378][222]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-14.59.24:389][222]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-14.59.24:389][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-14.59.24:389][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-14.59.24:389][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-14.59.24:389][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2022.06.25-14.59.24:389][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2022.06.25-14.59.24:390][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2022.06.25-14.59.24:390][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2022.06.25-14.59.24:390][222]LogInit: FAudioDevice initialized.
+[2022.06.25-14.59.24:390][222]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonMap'.
+[2022.06.25-14.59.24:401][222]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-14.59.24:403][222]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-16.59.24
+[2022.06.25-14.59.24:403][222]LogWorld: Bringing up level for play took: 0.002015
+[2022.06.25-14.59.24:404][222]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2022.06.25-14.59.24:405][222]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-14.59.24:405][222]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-14.59.24:406][222]PIE: Server logged in
+[2022.06.25-14.59.24:406][222]PIE: Play in editor total start time 0,094 seconds.
+[2022.06.25-14.59.28:810][743]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_05]
+[2022.06.25-14.59.29:307][802]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-14.59.34:307][402]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 50
+[2022.06.25-14.59.39:306][  2]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 25
+[2022.06.25-14.59.44:307][602]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 0
+[2022.06.25-14.59.44:315][603]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] Du bist Tot
+[2022.06.25-14.59.45:489][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-14.59.45:489][740]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-14.59.45:489][740]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.59.45:489][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.59.45:503][740]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-14.59.45:506][740]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.59.45:526][740]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.06.25-14.59.45:526][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.06.25-14.59.45:527][740]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2022.06.25-14.59.45:530][740]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-14.59.45:531][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2022.06.25-14.59.45:536][740]LogActorComponent: ReregisterComponent: (/Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_UAID_D85ED3561F1EFF1C01_1426309611.AudioComponent0) Not currently registered. Aborting.
+[2022.06.25-14.59.45:575][742]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.06.25-14.59.46:733][881]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-14.59.46:739][881]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-14.59.46:739][881]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-14.59.46:739][881]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-14.59.46:739][881]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-14.59.46:739][881]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-14.59.46:739][881]LogWorldPartition: Display: GetPartitionedActors took 58 us
+[2022.06.25-14.59.46:739][881]LogWorldPartition: Display: GenerateStreaming took 474 us
+[2022.06.25-14.59.46:739][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-14.59.46:739][881]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 18:59:46)
+[2022.06.25-14.59.46:769][881]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-14.59.46:773][881]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-14.59.46:773][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004563s)
+[2022.06.25-14.59.46:773][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004625s)
+[2022.06.25-14.59.46:773][881]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.59.46:774][881]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-14.59.46:774][881]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-14.59.46:774][881]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-14.59.46:775][881]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-14.59.46:775][881]LogPlayLevel: PIE: World Init took: (0.001851s)
+[2022.06.25-14.59.46:793][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2022.06.25-14.59.46:794][881]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2022.06.25-14.59.46:794][881]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-14.59.46:794][881]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-14.59.46:794][881]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-14.59.46:794][881]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-14.59.46:794][881]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-14.59.46:795][881]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-14.59.46:795][881]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-14.59.46:795][881]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-14.59.46:795][881]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-14.59.46:795][881]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-14.59.46:795][881]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-14.59.46:796][881]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-14.59.46:806][881]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-14.59.46:806][881]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-14.59.46:806][881]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-14.59.46:806][881]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-14.59.46:807][881]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2022.06.25-14.59.46:807][881]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2022.06.25-14.59.46:808][881]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2022.06.25-14.59.46:808][881]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2022.06.25-14.59.46:808][881]LogInit: FAudioDevice initialized.
+[2022.06.25-14.59.46:808][881]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonMap'.
+[2022.06.25-14.59.46:816][881]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-14.59.46:818][881]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-16.59.46
+[2022.06.25-14.59.46:818][881]LogWorld: Bringing up level for play took: 0.001990
+[2022.06.25-14.59.46:819][881]LogOnline: OSS: Created online subsystem instance for: :Context_48
+[2022.06.25-14.59.46:821][881]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-14.59.46:821][881]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-14.59.46:821][881]PIE: Server logged in
+[2022.06.25-14.59.46:822][881]PIE: Play in editor total start time 0,085 seconds.
+[2022.06.25-14.59.49:039][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-14.59.49:039][137]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-14.59.49:039][137]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.59.49:039][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.59.49:051][137]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-14.59.49:054][137]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.59.49:073][137]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-14.59.49:073][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.06.25-14.59.49:074][137]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2022.06.25-14.59.49:079][137]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.06.25-14.59.49:082][137]LogActorComponent: ReregisterComponent: (/Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_UAID_D85ED3561F1EFF1C01_1426309611.AudioComponent0) Not currently registered. Aborting.
+[2022.06.25-14.59.49:124][140]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2022.06.25-14.59.49:813][222]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.06.25-14.59.49:818][222]LogWorldPartition: Display: GenerateStreaming started...
+[2022.06.25-14.59.49:818][222]LogWorldPartition: Display: GetPartitionedActors started...
+[2022.06.25-14.59.49:818][222]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-14.59.49:818][222]LogWorldPartition: Display: ValidateSingleActorReferer started...
+[2022.06.25-14.59.49:818][222]LogWorldPartition: Display: ValidateSingleActorReferer took 0 us
+[2022.06.25-14.59.49:818][222]LogWorldPartition: Display: GetPartitionedActors took 35 us
+[2022.06.25-14.59.49:818][222]LogWorldPartition: Display: GenerateStreaming took 284 us
+[2022.06.25-14.59.49:818][222]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.06.25-14.59.49:818][222]PIE: New page: PIE session: FirstPersonMap (25.06.2022, 18:59:49)
+[2022.06.25-14.59.49:818][222]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-14.59.49:823][222]LogWorldPartition: Initial Data Layer Effective States Activated() Loaded()
+[2022.06.25-14.59.49:823][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004416s)
+[2022.06.25-14.59.49:823][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004451s)
+[2022.06.25-14.59.49:823][222]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.06.25-14.59.49:823][222]LogAIModule: Creating AISystem for world FirstPersonMap
+[2022.06.25-14.59.49:823][222]LogWorldPartition: Display: WorldPartition initialize started...
+[2022.06.25-14.59.49:823][222]LogWorldPartition: UWorldPartition::Initialize(IsEditor=0, IsGame=0, IsCooking=0)
+[2022.06.25-14.59.49:824][222]LogWorldPartition: Display: WorldPartition initialize took 1 ms
+[2022.06.25-14.59.49:825][222]LogPlayLevel: PIE: World Init took: (0.001841s)
+[2022.06.25-14.59.49:845][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.06.25-14.59.49:846][222]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2022.06.25-14.59.49:846][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.06.25-14.59.49:846][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.06.25-14.59.49:846][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.06.25-14.59.49:846][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.06.25-14.59.49:846][222]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.06.25-14.59.49:846][222]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.06.25-14.59.49:846][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.06.25-14.59.49:846][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.06.25-14.59.49:846][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.06.25-14.59.49:846][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.06.25-14.59.49:846][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.06.25-14.59.49:848][222]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.06.25-14.59.49:858][222]LogAudioMixer: Display: Using Audio Hardware Device Line (2- AG06/AG03)
+[2022.06.25-14.59.49:858][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.06.25-14.59.49:858][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.06.25-14.59.49:858][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.06.25-14.59.49:859][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2022.06.25-14.59.49:859][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2022.06.25-14.59.49:860][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2022.06.25-14.59.49:860][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2022.06.25-14.59.49:860][222]LogInit: FAudioDevice initialized.
+[2022.06.25-14.59.49:860][222]LogAudio: Display: Audio Device (ID: 17) registered with world 'FirstPersonMap'.
+[2022.06.25-14.59.49:867][222]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.06.25-14.59.49:869][222]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2022.06.25-16.59.49
+[2022.06.25-14.59.49:870][222]LogWorld: Bringing up level for play took: 0.002056
+[2022.06.25-14.59.49:871][222]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2022.06.25-14.59.49:872][222]LogWorldPartition: New Streaming Source: PlayerController_0 -> Position: X=2850.000 Y=2400.000 Z=548.275
+[2022.06.25-14.59.49:872][222]LogWorldPartition: Warning: Invalid world bounds, grid partitioning will use a runtime grid with 1 cell.
+[2022.06.25-14.59.49:873][222]PIE: Server logged in
+[2022.06.25-14.59.49:873][222]PIE: Play in editor total start time 0,056 seconds.
+[2022.06.25-14.59.54:810][806]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] 75
+[2022.06.25-14.59.57:521][132]LogAudioMixer: Warning: Decoder Error, stopping source [Light_Flicker_07]
+[2022.06.25-14.59.58:849][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-14.59.58:849][287]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2022.06.25-14.59.58:849][287]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2022.06.25-14.59.58:849][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.59.58:861][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.06.25-14.59.58:864][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.06.25-14.59.58:883][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.06.25-14.59.58:883][287]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.06.25-14.59.58:884][287]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2022.06.25-14.59.58:888][287]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.06.25-14.59.58:892][287]LogActorComponent: ReregisterComponent: (/Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.AmbientSound_UAID_D85ED3561F1EFF1C01_1426309611.AudioComponent0) Not currently registered. Aborting.
+[2022.06.25-14.59.58:936][290]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2022.06.25-15.00.40:945][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.06.25-15.00.40:967][678]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/31/C7B46FHFUQRT9DK2X5TBOK
+[2022.06.25-15.00.40:968][678]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/C7B46FHFUQRT9DK2X5TBOKE8BD037A4AC155D51CBD3386F3A01D47.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/1/31/C7B46FHFUQRT9DK2X5TBOK.uasset'
+[2022.06.25-15.00.40:970][678]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/6T/LC34F5PPVX5XK0T9FM3EGR
+[2022.06.25-15.00.40:970][678]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/LC34F5PPVX5XK0T9FM3EGR5D4EE3D044944A3B42F446AE75CCE8EC.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/A/6T/LC34F5PPVX5XK0T9FM3EGR.uasset'
+[2022.06.25-15.00.40:993][678]LogSavePackage: Moving output files for package: /Game/Assets/Systemitems/Lights/FlickeringLight
+[2022.06.25-15.00.40:994][678]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/FlickeringLight61959A6E426AACD1447109AE50F4F778.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Assets/Systemitems/Lights/FlickeringLight.uasset'
+[2022.06.25-15.00.40:995][678]LogSavePackage: Moving output files for package: /Game/Materials/Glass
+[2022.06.25-15.00.40:996][678]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/GlassA364B99C4D02698D044D9E9FF84D9377.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Content/Materials/Glass.uasset'
+[2022.06.25-15.00.41:005][678]AssetCheck: New page: Asset Save: multiple assets
+[2022.06.25-15.00.41:005][678]LogContentValidation: Display: Validating Blueprint /Game/Assets/Systemitems/Lights/FlickeringLight.FlickeringLight
+[2022.06.25-15.00.41:005][678]LogContentValidation: Display: Validating Material /Game/Materials/Glass.Glass
+[2022.06.25-15.00.41:005][678]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFC1C01_1650907082
+[2022.06.25-15.00.41:005][678]LogContentValidation: Display: Validating FlickeringLight_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.FlickeringLight_C_UAID_D85ED3561F1EFC1C01_1153347081
