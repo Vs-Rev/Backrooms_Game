@@ -19,6 +19,14 @@
 				"Mac",
 				"Linux"
 			]
+		},
+		{
+			"Name": "WaterExtras",
+			"Enabled": true
+		},
+		{
+			"Name": "Water",
+			"Enabled": true
 		}
 	]
 }
