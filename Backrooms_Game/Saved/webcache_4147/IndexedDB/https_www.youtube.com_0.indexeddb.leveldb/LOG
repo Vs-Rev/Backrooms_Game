@@ -1,0 +1,5 @@
+2022/07/27-17:11:32.295 207c Reusing MANIFEST C:/Users/guvas/Documents/Unreal Projects/Backrooms_Game_Repository/Backrooms_Game/Backrooms_Game/Saved/webcache_4147\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/07/27-17:12:31.960 233c Level-0 table #5: started
+2022/07/27-17:12:31.961 233c Level-0 table #5: 8465 bytes OK
+2022/07/27-17:12:31.962 233c Delete type=0 #3
+2022/07/27-17:12:31.963 233c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
