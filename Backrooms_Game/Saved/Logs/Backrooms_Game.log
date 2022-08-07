@@ -1531,3 +1531,230 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.08.07-00.29.06:784][148]LogFileHelpers: Saving map 'Lvl0' took 0.048
 [2022.08.07-00.29.06:792][148]AssetCheck: New page: Asset Save: Lvl0
 [2022.08.07-00.29.06:792][148]LogContentValidation: Display: Validating World /Game/Levels/Level1/Lvl0.Lvl0
+[2022.08.07-00.31.03:516][850]Cmd: DELETE
+[2022.08.07-00.31.03:516][850]Cmd: ACTOR DELETE
+[2022.08.07-00.31.03:517][850]LogEditorActor: Deleted Actor: PocketWatch_C
+[2022.08.07-00.31.03:550][850]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.08.07-00.31.03:552][850]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2022.08.07-00.31.44:325][587]BlueprintLog: New page: Compile SlowTime
+[2022.08.07-00.31.44:375][587]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.08.07-00.31.44:718][623]LogSavePackage: Moving output files for package: /Game/Trigger/TimeTrigger/SlowTime
+[2022.08.07-00.31.44:718][623]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/SlowTimeB068291542182D278CB192AFCB23AA16.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Content/Trigger/TimeTrigger/SlowTime.uasset'
+[2022.08.07-00.31.44:727][623]AssetCheck: New page: Asset Save: SlowTime
+[2022.08.07-00.31.44:727][623]LogContentValidation: Display: Validating Blueprint /Game/Trigger/TimeTrigger/SlowTime.SlowTime
+[2022.08.07-00.31.46:705][856]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.07-00.31.46:710][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.08.07-00.31.46:710][856]PIE: New page: PIE session: Lvl0 (07.08.2022, 04:31:46)
+[2022.08.07-00.31.46:710][856]LogPlayLevel: Creating play world package: /Game/Levels/Level1/UEDPIE_0_Lvl0
+[2022.08.07-00.31.46:713][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002856s)
+[2022.08.07-00.31.46:713][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1/Lvl0.Lvl0 to /Game/Levels/Level1/UEDPIE_0_Lvl0.Lvl0 (0.002902s)
+[2022.08.07-00.31.46:713][856]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.07-00.31.46:713][856]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.07-00.31.46:714][856]LogAIModule: Creating AISystem for world Lvl0
+[2022.08.07-00.31.46:714][856]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2022.08.07-00.31.46:746][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.08.07-00.31.46:747][856]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.08.07-00.31.46:747][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.07-00.31.46:747][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.07-00.31.46:747][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.07-00.31.46:747][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.07-00.31.46:747][856]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.07-00.31.46:747][856]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.07-00.31.46:747][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.07-00.31.46:747][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.07-00.31.46:748][856]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.07-00.31.46:748][856]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.07-00.31.46:748][856]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.07-00.31.46:749][856]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.07-00.31.46:763][856]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (3- High Definition Audio Device)
+[2022.08.07-00.31.46:763][856]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.07-00.31.46:763][856]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.07-00.31.46:763][856]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.07-00.31.46:763][856]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2022.08.07-00.31.46:763][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2022.08.07-00.31.46:764][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2022.08.07-00.31.46:764][856]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2022.08.07-00.31.46:764][856]LogInit: FAudioDevice initialized.
+[2022.08.07-00.31.46:764][856]LogAudio: Display: Audio Device (ID: 13) registered with world 'Lvl0'.
+[2022.08.07-00.31.46:776][856]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.08.07-00.31.46:778][856]LogWorld: Bringing World /Game/Levels/Level1/UEDPIE_0_Lvl0.Lvl0 up for play (max tick rate 0) at 2022.08.07-02.31.46
+[2022.08.07-00.31.46:778][856]LogWorld: Bringing up level for play took: 0.001420
+[2022.08.07-00.31.46:779][856]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2022.08.07-00.31.46:780][856]PIE: Server logged in
+[2022.08.07-00.31.46:781][856]PIE: Play in editor total start time 0,071 seconds.
+[2022.08.07-00.32.00:592][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.07-00.32.00:592][501]LogWorld: BeginTearingDown for /Game/Levels/Level1/UEDPIE_0_Lvl0
+[2022.08.07-00.32.00:592][501]LogWorld: UWorld::CleanupWorld for Lvl0, bSessionEnded=true, bCleanupResources=true
+[2022.08.07-00.32.00:593][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.32.00:606][501]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.07-00.32.00:609][501]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.32.00:642][501]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.08.07-00.32.00:642][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.08.07-00.32.00:643][501]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2022.08.07-00.32.00:646][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.07-00.32.00:648][501]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.08.07-00.32.00:673][503]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2022.08.07-00.32.11:551][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.08.07-00.32.11:612][757]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2022.08.07-00.32.11:620][757]LogSavePackage: Moving output files for package: /Game/Levels/Level1/Lvl0
+[2022.08.07-00.32.11:621][757]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/Lvl0A91ACBDF47E783C6620F54971A291D12.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Content/Levels/Level1/Lvl0.umap'
+[2022.08.07-00.32.11:627][757]LogFileHelpers: Saving map 'Lvl0' took 0.046
+[2022.08.07-00.32.11:636][757]AssetCheck: New page: Asset Save: Lvl0
+[2022.08.07-00.32.11:636][757]LogContentValidation: Display: Validating World /Game/Levels/Level1/Lvl0.Lvl0
+[2022.08.07-00.33.39:550][287]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.08.07-00.33.39:551][287]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.07-00.33.47:750][ 46]LogSlate: Took 0.002274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2022.08.07-00.33.50:572][312]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.08.07-00.33.50:675][312]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.08.07-00.33.51:255][343]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2022.08.07-00.33.51:255][343]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/BP_FirstPersonCharacterCCF321CD42335388343FD78A83100A67.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2022.08.07-00.33.51:263][343]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2022.08.07-00.33.51:263][343]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.08.07-00.34.34:183][197]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2022.08.07-00.34.34:193][197]LogContentBrowser: Creating deferred item: NewFolder
+[2022.08.07-00.34.34:200][198]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2022.08.07-00.34.36:412][464]LogContentBrowser: Attempting asset rename: NewFolder -> HealthSystem
+[2022.08.07-00.34.36:412][464]LogContentBrowser: End creating deferred item NewFolder
+[2022.08.07-00.34.47:966][610]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2022.08.07-00.34.47:969][610]LogContentBrowser: Creating deferred item: NewInterface
+[2022.08.07-00.34.47:984][612]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2022.08.07-00.34.53:899][322]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_Damageble
+[2022.08.07-00.34.53:902][322]LogContentBrowser: End creating deferred item NewInterface
+[2022.08.07-00.34.54:883][439]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HealthSystem/BPI_Damageble.BPI_Damageble
+[2022.08.07-00.34.54:884][439]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.07-00.35.20:426][462]BlueprintLog: New page: Compile BPI_Damageble
+[2022.08.07-00.35.20:465][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2022.08.07-00.35.20:969][518]LogSavePackage: Moving output files for package: /Game/HealthSystem/BPI_Damageble
+[2022.08.07-00.35.20:970][518]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/BPI_DamagebleF30F32B4416D47DF01768697515C179D.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Content/HealthSystem/BPI_Damageble.uasset'
+[2022.08.07-00.35.20:978][518]AssetCheck: New page: Asset Save: BPI_Damageble
+[2022.08.07-00.35.20:978][518]LogContentValidation: Display: Validating Blueprint /Game/HealthSystem/BPI_Damageble.BPI_Damageble
+[2022.08.07-00.35.22:890][745]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.08.07-00.35.22:890][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.35.23:858][854]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.08.07-00.35.23:858][854]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.35.24:264][899]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.08.07-00.35.24:264][899]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.08.07-00.35.24:264][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.35.24:666][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.08.07-00.35.24:666][943]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.08.07-00.35.24:666][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.35.25:063][986]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.08.07-00.35.25:063][986]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.08.07-00.35.25:063][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.35.49:551][876]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.08.07-00.35.55:466][530]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2022.08.07-00.35.55:551][530]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.08.07-00.35.56:120][563]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2022.08.07-00.35.56:120][563]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/BP_FirstPersonCharacterA491BB1641D2C11D842619BB84668421.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2022.08.07-00.35.56:130][563]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2022.08.07-00.35.56:130][563]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.08.07-00.42.11:830][207]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2022.08.07-00.42.11:842][207]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Level1/Lvl0_Auto1
+[2022.08.07-00.42.11:842][207]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/Lvl0_Auto139727C2141F6C035247ED19843A3A5C2.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/Levels/Level1/Lvl0_Auto1.umap'
+[2022.08.07-00.42.11:844][207]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Level1/Lvl0' took 0.038
+[2022.08.07-00.42.11:845][207]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.038
+[2022.08.07-00.42.11:845][207]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2022.08.07-00.42.11:845][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2022.08.07-00.42.11:909][207]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1
+[2022.08.07-00.42.11:909][207]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/BP_FirstPersonCharacter_Auto16FA8DFB14D988DFCBD474D9BD1F3B267.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto1.uasset'
+[2022.08.07-00.42.11:910][207]LogFileHelpers: Auto-saving content packages took 0.065
+[2022.08.07-00.43.20:538][205]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2022.08.07-00.43.21:889][205]LogSlate: Window 'Pick Parent Class' being destroyed
+[2022.08.07-00.43.21:898][205]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2022.08.07-00.43.21:901][205]LogContentBrowser: Creating deferred item: NewBlueprint
+[2022.08.07-00.43.21:907][206]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2022.08.07-00.43.28:504][988]LogContentBrowser: Attempting asset rename: NewBlueprint -> BP_DamageActor
+[2022.08.07-00.43.28:508][988]LogContentBrowser: End creating deferred item NewBlueprint
+[2022.08.07-00.43.29:600][119]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/HealthSystem/BP_DamageActor.BP_DamageActor
+[2022.08.07-00.43.29:600][119]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.07-00.43.29:881][119]LogViewport: Scene viewport resized to 1141x693, mode Windowed.
+[2022.08.07-00.43.55:872][972]BlueprintLog: New page: Compile BP_DamageActor
+[2022.08.07-00.43.55:939][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2022.08.07-00.43.56:294][  5]LogSavePackage: Moving output files for package: /Game/HealthSystem/BP_DamageActor
+[2022.08.07-00.43.56:294][  5]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/BP_DamageActor5F5ACF434EFFAEE59B7E9BA3B8DD426A.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Content/HealthSystem/BP_DamageActor.uasset'
+[2022.08.07-00.43.56:303][  5]AssetCheck: New page: Asset Save: BP_DamageActor
+[2022.08.07-00.43.56:303][  5]LogContentValidation: Display: Validating Blueprint /Game/HealthSystem/BP_DamageActor.BP_DamageActor
+[2022.08.07-00.43.58:033][201]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/HealthSystem/BP_DamageActor.BP_DamageActor_C
+[2022.08.07-00.43.58:033][201]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/HealthSystem/BP_DamageActor.BP_DamageActor_C
+[2022.08.07-00.43.58:034][201]LogActorFactory: Actor Factory spawned Blueprint /Game/HealthSystem/BP_DamageActor.BP_DamageActor as actor: BP_DamageActor_C /Game/Levels/Level1/Lvl0.Lvl0:PersistentLevel.BP_DamageActor_C_0
+[2022.08.07-00.43.58:034][201]LogActorFactory: Actor Factory spawned Blueprint /Game/HealthSystem/BP_DamageActor.BP_DamageActor as actor: BP_DamageActor_C /Game/Levels/Level1/Lvl0.Lvl0:PersistentLevel.BP_DamageActor_C_0
+[2022.08.07-00.43.58:788][285]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/HealthSystem/BP_DamageActor.BP_DamageActor_C
+[2022.08.07-00.43.58:788][285]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/HealthSystem/BP_DamageActor.BP_DamageActor_C
+[2022.08.07-00.43.58:790][285]LogActorFactory: Actor Factory spawned Blueprint /Game/HealthSystem/BP_DamageActor.BP_DamageActor as actor: BP_DamageActor_C /Game/Levels/Level1/Lvl0.Lvl0:PersistentLevel.BP_DamageActor_C_1
+[2022.08.07-00.43.58:790][285]LogActorFactory: Actor Factory spawned Blueprint /Game/HealthSystem/BP_DamageActor.BP_DamageActor as actor: BP_DamageActor_C /Game/Levels/Level1/Lvl0.Lvl0:PersistentLevel.BP_DamageActor_C_1
+[2022.08.07-00.44.08:053][280]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.08.07-00.44.08:059][280]BlueprintLog: New page: Pre-Play auto-recompile
+[2022.08.07-00.44.08:065][280]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonCharacter before play...
+[2022.08.07-00.44.08:207][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2022.08.07-00.44.08:208][280]LogPlayLevel: PlayLevel: Blueprint regeneration took 148 ms (1 blueprints)
+[2022.08.07-00.44.08:208][280]PIE: New page: PIE session: Lvl0 (07.08.2022, 04:44:08)
+[2022.08.07-00.44.08:208][280]LogPlayLevel: Creating play world package: /Game/Levels/Level1/UEDPIE_0_Lvl0
+[2022.08.07-00.44.08:211][280]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003018s)
+[2022.08.07-00.44.08:211][280]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1/Lvl0.Lvl0 to /Game/Levels/Level1/UEDPIE_0_Lvl0.Lvl0 (0.003072s)
+[2022.08.07-00.44.08:211][280]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.08.07-00.44.08:211][280]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.08.07-00.44.08:212][280]LogAIModule: Creating AISystem for world Lvl0
+[2022.08.07-00.44.08:212][280]LogPlayLevel: PIE: World Init took: (0.000579s)
+[2022.08.07-00.44.08:234][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.08.07-00.44.08:234][280]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.08.07-00.44.08:234][280]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.08.07-00.44.08:234][280]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.08.07-00.44.08:234][280]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.08.07-00.44.08:234][280]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.08.07-00.44.08:234][280]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.08.07-00.44.08:234][280]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.08.07-00.44.08:234][280]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.08.07-00.44.08:234][280]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.08.07-00.44.08:235][280]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.08.07-00.44.08:235][280]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.08.07-00.44.08:235][280]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.08.07-00.44.08:236][280]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.08.07-00.44.08:250][280]LogAudioMixer: Display: Using Audio Hardware Device Lautsprecher (3- High Definition Audio Device)
+[2022.08.07-00.44.08:251][280]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.08.07-00.44.08:251][280]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.08.07-00.44.08:251][280]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.08.07-00.44.08:251][280]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2022.08.07-00.44.08:251][280]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2022.08.07-00.44.08:252][280]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2022.08.07-00.44.08:252][280]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2022.08.07-00.44.08:252][280]LogInit: FAudioDevice initialized.
+[2022.08.07-00.44.08:252][280]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl0'.
+[2022.08.07-00.44.08:260][280]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.08.07-00.44.08:262][280]LogWorld: Bringing World /Game/Levels/Level1/UEDPIE_0_Lvl0.Lvl0 up for play (max tick rate 0) at 2022.08.07-02.44.08
+[2022.08.07-00.44.08:262][280]LogWorld: Bringing up level for play took: 0.001374
+[2022.08.07-00.44.08:263][280]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2022.08.07-00.44.08:265][280]PIE: Server logged in
+[2022.08.07-00.44.08:265][280]PIE: Play in editor total start time 0,208 seconds.
+[2022.08.07-00.44.10:796][560]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -10.0
+[2022.08.07-00.44.13:196][848]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -20.0
+[2022.08.07-00.44.14:612][ 18]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -30.0
+[2022.08.07-00.44.15:687][147]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -40.0
+[2022.08.07-00.44.16:654][263]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -50.0
+[2022.08.07-00.44.17:438][357]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -60.0
+[2022.08.07-00.44.18:454][479]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -70.0
+[2022.08.07-00.44.19:304][581]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -80.0
+[2022.08.07-00.44.19:846][646]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -90.0
+[2022.08.07-00.44.20:605][737]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -100.0
+[2022.08.07-00.44.21:347][826]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -110.0
+[2022.08.07-00.44.22:005][905]LogBlueprintUserMessages: [BP_FirstPersonCharacter_C_0] -120.0
+[2022.08.07-00.44.22:382][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.07-00.44.22:382][945]LogWorld: BeginTearingDown for /Game/Levels/Level1/UEDPIE_0_Lvl0
+[2022.08.07-00.44.22:382][945]LogWorld: UWorld::CleanupWorld for Lvl0, bSessionEnded=true, bCleanupResources=true
+[2022.08.07-00.44.22:382][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.44.22:393][945]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.08.07-00.44.22:396][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.08.07-00.44.22:419][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.08.07-00.44.22:419][945]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.08.07-00.44.22:421][945]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2022.08.07-00.44.22:425][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2022.08.07-00.44.22:446][946]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2022.08.07-00.44.25:303][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.08.07-00.44.25:354][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2022.08.07-00.44.25:363][ 77]LogSavePackage: Moving output files for package: /Game/Levels/Level1/Lvl0
+[2022.08.07-00.44.25:364][ 77]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/Lvl03C7CCA3B4D2972153D486386C4E026CE.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Content/Levels/Level1/Lvl0.umap'
+[2022.08.07-00.44.25:370][ 77]LogFileHelpers: Saving map 'Lvl0' took 0.039
+[2022.08.07-00.44.25:435][ 77]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2022.08.07-00.44.25:435][ 77]LogSavePackage: Moving '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Saved/BP_FirstPersonCharacterFD1C18E9419B4ABA880CF087A10094D4.tmp' to '../../../../../../Users/guvas/Documents/Unreal Projects/Backrooms_Game_Recovered/Backrooms_Game/Backrooms_Game/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2022.08.07-00.44.25:449][ 77]AssetCheck: New page: Asset Save: multiple assets
+[2022.08.07-00.44.25:449][ 77]LogContentValidation: Display: Validating Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2022.08.07-00.44.25:449][ 77]LogContentValidation: Display: Validating World /Game/Levels/Level1/Lvl0.Lvl0
